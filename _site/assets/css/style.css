@@ -16,10 +16,34 @@
 }
 
 body {
-  background: #f5f5f5;
-  color: #333;
+  background: var(--white);
+  color: var(--black);
   font-family: "Nunito sans", sans-serif;
+  font-size: 18px;
   line-height: 1.6;
+}
+
+.skip-link {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.skip-link:focus {
+  clip: auto;
+  clip-path: none;
+  height: auto;
+  left: 0;
+  top: 0;
+  width: auto;
+  background: var(--primary-color);
+  color: var(--white);
+  padding: 10px;
+  z-index: 1000;
 }
 
 h1,
@@ -38,10 +62,23 @@ a {
   width: 90%;
 }
 
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
 /* ================== Header ================== */
 header {
   background: var(--white);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1em;
   padding: 5px 0;
 }
 
@@ -62,7 +99,7 @@ header {
   color: var(--primary-color);
   cursor: pointer;
   display: none;
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: bold;
 }
 
@@ -83,8 +120,9 @@ a:focus,
   position: relative;
 }
 
-a:focus::before,
-.menu-toggle::before {
+a:not(.btn):focus::before,
+.menu-toggle::before,
+.nav-links a[aria-current="page"]::before {
   content: "⌈";
   left: -0.7em;
   position: absolute;
@@ -92,8 +130,9 @@ a:focus::before,
   transform: translateY(-50%);
 }
 
-a:focus::after,
-.menu-toggle::after {
+a:not(.btn):focus::after,
+.menu-toggle::after,
+.nav-links a[aria-current="page"]::after {
   content: "⌋";
   position: absolute;
   right: -0.7em;
@@ -124,18 +163,18 @@ a:focus::after,
 
 .hero-content h2 {
   color: var(--tertiary-color);
-  font-size: 3rem;
+  font-size: 3em;
   margin-bottom: 20px;
 }
 
 .hero-content p {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   margin-bottom: 20px;
 }
 
 .hero-content .event-date,
 .hero-content .event-time {
-  font-size: 2.2rem;
+  font-size: 2.2em;
   margin-bottom: 0;
 }
 
@@ -165,14 +204,16 @@ a:focus::after,
 }
 
 .about h2 {
-  font-size: 2rem;
+  font-size: 2em;
   margin-bottom: 20px;
 }
 
 .about p {
-  font-size: 1rem;
-  margin: auto;
+  font-size: 1em;
+  line-height: 1.8;
+  margin: 0 auto 1.5em;
   max-width: 800px;
+  padding: 0 15px;
 }
 
 /* ================== About Cards ================== */
@@ -190,15 +231,17 @@ a:focus::after,
 
 .card h3 {
   color: var(--primary-color);
-  font-size: 1.25rem;
+  font-size: 1.25em;
   margin: 0;
   padding: 10px;
 }
 
 .card p {
-  font-size: 1rem;
-  margin: 0;
-  padding: 10px;
+  font-size: 1em;
+  line-height: 1.8;
+  margin: 0 auto 1.5em;
+  max-width: 800px;
+  padding: 0 15px;
 }
 
 /* ================== Values Section ================== */
@@ -214,7 +257,7 @@ a:focus::after,
 
 .values h2 {
   color: var(--white);
-  font-size: 2rem;
+  font-size: 2em;
   margin-bottom: 20px;
 }
 
@@ -236,16 +279,18 @@ a:focus::after,
 .values .card h3 {
   background: inherit;
   color: var(--white);
-  font-size: 1.25rem;
+  font-size: 1.25em;
   margin: 0;
   padding: 10px;
 }
 
 .values .card p {
   color: var(--white);
-  font-size: 1rem;
-  margin: 0;
-  padding: 10px;
+  font-size: 1em;
+  line-height: 1.8;
+  margin: 0 auto 1.5em;
+  max-width: 800px;
+  padding: 0 15px;
 }
 
 /* ================== Partners Section ================== */
@@ -256,14 +301,37 @@ a:focus::after,
 }
 
 .partners h2 {
-  font-size: 2rem;
+  font-size: 2em;
   margin-bottom: 40px;
 }
 
-.partners-grid {
-  display: grid;
+.partners p {
+  color: var(--black);
+  font-size: 1em;
+  line-height: 1.8;
+  margin: 0 auto 1.5em;
+  max-width: 800px;
+  padding: 0 15px;
+}
+
+.partners h3 {
+  font-size: 1.25em;
+  margin: 0;
+  padding: 10px;
+}
+
+.partner-items {
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.partner-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .partner-item img {
@@ -273,10 +341,180 @@ a:focus::after,
   max-width: 100%;
 }
 
+.btn {
+  background: var(--tertiary-color);
+  border: 3px solid var(--tertiary-color);
+  border-radius: 90px;
+  color: var(--primary-color);
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  border: 3px solid var(--primary-color);
+}
+
+@media (max-width: 480px) {
+  .partner-items {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ================== IWD Styling ================== */
+.iwd {
+  background: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.iwd h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.iwd h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.iwd p {
+  font-size: 1em;
+  line-height: 1.8;
+  margin: 0 auto 1.5em;
+  max-width: 800px;
+  padding: 0 15px;
+}
+
+/* ================== IWD Styling ================== */
+.wtm {
+  background: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.wtm h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.wtm h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.wtm p {
+  font-size: 1em;
+  line-height: 1.8;
+  margin: 0 auto 1.5em;
+  max-width: 800px;
+  padding: 0 15px;
+}
+
+/* ================== IWD Styling ================== */
+.swit {
+  background: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.swit h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.swit h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.swit p {
+  font-size: 1em;
+  line-height: 1.8;
+  margin: 0 auto 1.5em;
+  max-width: 800px;
+  padding: 0 15px;
+}
+
+/* ================== IWD Styling ================== */
+.team {
+  background: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.team h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.team h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.team p {
+  font-size: 1em;
+  line-height: 1.8;
+  margin: 0 auto 1.5em;
+  max-width: 800px;
+  padding: 0 15px;
+}
+
+/* ================== Partner Section Styling ================== */
+.partner {
+  padding: 60px 20px;
+}
+
+.partner .container {
+  margin: auto;
+  max-width: 800px;
+}
+
+.partner h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.partner h2 {
+  font-size: 2em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.partner p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.partner ul {
+  list-style-type: disc;
+  margin: 0 0 20px 20px;
+  padding: 0;
+}
+
+.partner li {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
 /* ================== Schedule Section ================== */
 .schedule {
   background: #fff;
   padding: 60px 0;
+}
+
+.schedule h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -298,7 +536,6 @@ a:focus::after,
 }
 
 .schedule-table td:first-child {
-  text-align: center;
   width: 15%;
 }
 
@@ -311,16 +548,61 @@ a:focus::after,
 }
 
 /* ================== Code of Conduct ================== */
-.code-of-conduct {
-  background: var(--primary-color);
-  color: var(--white);
-  padding: 60px 0;
+.cod {
+  background: var(--white);
+  font-size: 1em;
+  line-height: 1.8;
+  padding: 3em 1em;
+}
+
+.cod .container {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+.cod h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
   text-align: center;
+}
+
+.cod h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.cod p {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.cod ul {
+  font-size: 1em;
+  list-style-type: disc;
+  margin: 1em 0 1em 2em;
+  padding: 0;
+}
+
+.cod li {
+  margin-bottom: 0.5em;
+}
+
+.cod a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.cod a:focus::before {
+  left: -0.4em;
+}
+
+.cod a:focus::after {
+  right: -0.4em;
 }
 
 /* ================== Footer ================== */
 footer {
-  background: var(--tertiary-color);
+  background: var(--primary-color);
 }
 
 .footer-top {
@@ -337,8 +619,10 @@ footer {
 }
 
 .footer-col h3 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+  color: var(--white);
+  font-size: 1.1em;
+  margin: 0;
+  padding: 10px 0;
 }
 
 .footer-col ul {
@@ -350,19 +634,24 @@ footer {
 }
 
 .footer-col ul li a {
-  color: var(--primary-color);
+  color: var(--white);
   text-decoration: none;
 }
 
 .footer-bottom {
-  border-top: 1px solid #444;
-  font-size: 0.9rem;
+  border-top: 1px solid var(--white);
+  color: var(--white);
+  font-size: 0.9em;
   padding: 20px 0;
   text-align: center;
 }
 
 .footer-bottom .icon {
   color: var(--secondary-color);
+}
+
+.footer-bottom a {
+  color: var(--white);
 }
 
 .footer-bottom a:focus::before {
@@ -374,7 +663,7 @@ footer {
 }
 
 /* ================== Responsive Styles ================== */
-@media (max-width: 840px) {
+@media (max-width: 900px) {
   .header-container {
     flex-wrap: wrap;
   }
@@ -405,21 +694,21 @@ footer {
   }
 
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.5em;
   }
 
   .event-date {
-    font-size: 1.3rem;
+    font-size: 1.3em;
   }
 }
 
 @media (max-width: 480px) {
   .hero h1 {
-    font-size: 2rem;
+    font-size: 2em;
   }
 
   .event-date {
-    font-size: 1.1rem;
+    font-size: 1.1em;
   }
 
   .footer-top {

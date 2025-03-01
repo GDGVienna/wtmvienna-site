@@ -10,9 +10,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,75..125,200..1000;1,6..12,75..125,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   {% include "header.njk" %}
   
-  <main>
+  <main id="main-content">
     {{ content | safe }}
   </main>
   
