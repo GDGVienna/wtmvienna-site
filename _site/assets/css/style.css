@@ -19,18 +19,31 @@ body {
   background: var(--white);
   color: var(--black);
   font-family: "Nunito sans", sans-serif;
-  font-size: 18px;
+  font-size: 1.125em;
+  /* 18px */
   line-height: 1.6;
+}
+
+.container {
+  margin: auto;
+  max-width: 75em;
+  /* approx. 1200px */
+  width: 90%;
+}
+
+/* Utility classes */
+.skip-link,
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
 }
 
 .skip-link {
   clip: rect(1px, 1px, 1px, 1px);
   clip-path: inset(50%);
-  height: 1px;
+  height: 1em;
   overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+  width: 1em;
 }
 
 .skip-link:focus {
@@ -38,14 +51,25 @@ body {
   clip-path: none;
   height: auto;
   left: 0;
+  padding: 0.625em;
   top: 0;
   width: auto;
   background: var(--primary-color);
   color: var(--white);
-  padding: 10px;
   z-index: 1000;
 }
 
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1em;
+  margin: -1em;
+  overflow: hidden;
+  padding: 0;
+  width: 1em;
+}
+
+/* Shared heading and paragraph text (used in multiple sections) */
 h1,
 h2,
 h3,
@@ -56,41 +80,34 @@ a {
   color: var(--primary-color);
 }
 
-.container {
-  margin: auto;
-  max-width: 1200px;
-  width: 90%;
-}
-
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap;
+.section-text {
+  font-size: 1em;
+  line-height: 1.8;
+  margin: 0 auto 1.5em;
+  max-width: 50em;
+  /* approx. 800px */
+  padding: 0 0.938em;
 }
 
 /* ================== Header ================== */
 header {
   background: var(--white);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1);
   margin-bottom: 1em;
-  padding: 5px 0;
+  padding: 0.313em 0;
 }
 
 .header-container {
-  align-items: center;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 .logo img {
-  height: 60px;
-  width: 150px;
+  width: 9.375em;
+  /* 150px */
+  height: 3.75em;
+  /* 60px */
 }
 
 .menu-toggle {
@@ -109,7 +126,8 @@ header {
 
 .nav-links a {
   font-weight: bold;
-  margin-right: 25px;
+  margin-right: 1.563em;
+  /* 25px */
   position: relative;
   text-decoration: none;
 }
@@ -124,9 +142,9 @@ a:not(.btn):focus::before,
 .menu-toggle::before,
 .nav-links a[aria-current="page"]::before {
   content: "⌈";
-  left: -0.7em;
   position: absolute;
   top: 50%;
+  left: -0.7em;
   transform: translateY(-50%);
 }
 
@@ -135,8 +153,8 @@ a:not(.btn):focus::after,
 .nav-links a[aria-current="page"]::after {
   content: "⌋";
   position: absolute;
-  right: -0.7em;
   top: 50%;
+  right: -0.7em;
   transform: translateY(-50%);
 }
 
@@ -151,25 +169,22 @@ a:not(.btn):focus::after,
 }
 
 .hero-content {
-  --primary-color: #1A3E38;
-  --secondary-color: #00B698;
-  --tertiary-color: #D1ECE3;
   background-color: var(--primary-color);
   color: var(--tertiary-color);
-  margin: 20px 0;
-  padding: 80px 0;
+  margin: 1.111em 0;
+  padding: 4.444em 0;
   text-align: center;
 }
 
 .hero-content h2 {
-  color: var(--tertiary-color);
   font-size: 3em;
-  margin-bottom: 20px;
+  margin-bottom: 1.111em;
+  color: var(--tertiary-color);
 }
 
 .hero-content p {
   font-size: 1.5em;
-  margin-bottom: 20px;
+  margin-bottom: 1.111em;
 }
 
 .hero-content .event-date,
@@ -178,50 +193,80 @@ a:not(.btn):focus::after,
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48em) {
   .hero {
     background: url("../images/banner-small.png") center/cover no-repeat;
     min-height: 50vh;
   }
 
   .hero-content {
-    --primary-color: #20344B;
-    --tertiary-color: #CAE6FF;
-    background-color: var(--primary-color);
-    color: var(--tertiary-color);
+    background-color: #20344B;
+    color: #CAE6FF;
   }
 }
 
-/* ================== About Section ================== */
-.about {
-  background: var(--white);
-  padding: 60px 0;
+/* ================== Section Base Styles ================== */
+/* These rules apply to multiple sections that share similar text styles */
+.about,
+.iwd,
+.wtm,
+.swit,
+.team,
+.partner,
+.schedule,
+.cod {
   text-align: center;
+  padding: 3.333em 0;
+  background: var(--white);
 }
 
-.about .container {
-  margin-bottom: 40px;
+.about h2,
+.iwd h1,
+.wtm h1,
+.swit h1,
+.team h1,
+.partner h1,
+.schedule h1,
+.cod h1 {
+  font-size: 2.5em;
+  margin-bottom: 1.111em;
 }
 
-.about h2 {
+.about h2,
+.iwd h2,
+.wtm h2,
+.swit h2,
+.team h2,
+.partner h2,
+.schedule h2,
+.cod h2 {
   font-size: 2em;
-  margin-bottom: 20px;
+  margin-bottom: 1.111em;
 }
 
-.about p {
+.about p,
+.iwd p,
+.wtm p,
+.swit p,
+.team p,
+.partner p,
+.schedule p,
+.cod p {
+  /* Use shared text style */
+  /* (Apply .section-text class in HTML if preferred) */
   font-size: 1em;
   line-height: 1.8;
   margin: 0 auto 1.5em;
-  max-width: 800px;
-  padding: 0 15px;
+  max-width: 50em;
+  padding: 0 0.938em;
 }
 
-/* ================== About Cards ================== */
+/* ================== Cards (for About & Values) ================== */
 .cards {
   display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding: 20px;
+  gap: 1.25em;
+  grid-template-columns: repeat(auto-fit, minmax(18.75em, 1fr));
+  padding: 1.25em;
 }
 
 .card {
@@ -233,47 +278,36 @@ a:not(.btn):focus::after,
   color: var(--primary-color);
   font-size: 1.25em;
   margin: 0;
-  padding: 10px;
+  padding: 0.625em;
 }
 
 .card p {
-  font-size: 1em;
-  line-height: 1.8;
-  margin: 0 auto 1.5em;
-  max-width: 800px;
-  padding: 0 15px;
+  /* Inherit .section-text styles */
 }
 
 /* ================== Values Section ================== */
 .values {
   background: var(--secondary-color);
-  padding: 60px 0;
   text-align: center;
-}
-
-.values .container {
-  margin-bottom: 40px;
+  padding: 3.333em 0;
 }
 
 .values h2 {
   color: var(--white);
   font-size: 2em;
-  margin-bottom: 20px;
+  margin-bottom: 1.111em;
 }
 
 .values .cards {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding: 20px;
+  /* Reuse shared .cards grid */
 }
 
 .values .card {
   background: inherit;
-  border: 2px solid #ddd;
-  border-radius: 30px;
+  border: 0.125em solid #ddd;
+  border-radius: 1.875em;
   overflow: hidden;
-  padding: 20px;
+  padding: 1.25em;
 }
 
 .values .card h3 {
@@ -281,51 +315,42 @@ a:not(.btn):focus::after,
   color: var(--white);
   font-size: 1.25em;
   margin: 0;
-  padding: 10px;
+  padding: 0.625em;
 }
 
 .values .card p {
   color: var(--white);
-  font-size: 1em;
-  line-height: 1.8;
-  margin: 0 auto 1.5em;
-  max-width: 800px;
-  padding: 0 15px;
+  /* Inherit .section-text styles */
 }
 
 /* ================== Partners Section ================== */
 .partners {
-  background: var(--white);
-  padding: 60px 0;
+  padding: 3.333em 0;
   text-align: center;
+  background: var(--white);
 }
 
 .partners h2 {
   font-size: 2em;
-  margin-bottom: 40px;
+  margin-bottom: 2.5em;
 }
 
 .partners p {
   color: var(--black);
-  font-size: 1em;
-  line-height: 1.8;
-  margin: 0 auto 1.5em;
-  max-width: 800px;
-  padding: 0 15px;
 }
 
 .partners h3 {
   font-size: 1.25em;
   margin: 0;
-  padding: 10px;
+  padding: 0.625em;
 }
 
 .partner-items {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 1.25em;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.5em;
 }
 
 .partner-item {
@@ -341,193 +366,95 @@ a:not(.btn):focus::after,
   max-width: 100%;
 }
 
+/* ================== Button ================== */
 .btn {
   background: var(--tertiary-color);
-  border: 3px solid var(--tertiary-color);
-  border-radius: 90px;
+  border: 0.188em solid var(--tertiary-color);
+  border-radius: 5.625em;
   color: var(--primary-color);
   display: inline-block;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 0.625em 1.25em;
   text-decoration: none;
   transition: background 0.3s ease;
 }
 
 .btn:hover,
 .btn:focus {
-  border: 3px solid var(--primary-color);
+  border: 0.188em solid var(--primary-color);
 }
 
-@media (max-width: 480px) {
-  .partner-items {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-/* ================== IWD Styling ================== */
-.iwd {
-  background: #fff;
-  padding: 60px 0;
-  text-align: center;
-}
-
-.iwd h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.iwd h2 {
-  font-size: 2em;
-  margin-bottom: 40px;
-}
-
-.iwd p {
-  font-size: 1em;
-  line-height: 1.8;
-  margin: 0 auto 1.5em;
-  max-width: 800px;
-  padding: 0 15px;
-}
-
-/* ================== IWD Styling ================== */
-.wtm {
-  background: #fff;
-  padding: 60px 0;
-  text-align: center;
-}
-
-.wtm h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.wtm h2 {
-  font-size: 2em;
-  margin-bottom: 40px;
-}
-
-.wtm p {
-  font-size: 1em;
-  line-height: 1.8;
-  margin: 0 auto 1.5em;
-  max-width: 800px;
-  padding: 0 15px;
-}
-
-/* ================== IWD Styling ================== */
-.swit {
-  background: #fff;
-  padding: 60px 0;
-  text-align: center;
-}
-
-.swit h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.swit h2 {
-  font-size: 2em;
-  margin-bottom: 40px;
-}
-
-.swit p {
-  font-size: 1em;
-  line-height: 1.8;
-  margin: 0 auto 1.5em;
-  max-width: 800px;
-  padding: 0 15px;
-}
-
-/* ================== IWD Styling ================== */
+/* ================== Page Sections (IWD, WTM, SWIT, TEAM) ================== */
+/* These sections share identical styling */
+.iwd,
+.wtm,
+.swit,
 .team {
-  background: #fff;
-  padding: 60px 0;
+  background: var(--white);
+  padding: 3.333em 0;
   text-align: center;
 }
 
-.team h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.team h2 {
-  font-size: 2em;
-  margin-bottom: 40px;
-}
-
-.team p {
-  font-size: 1em;
-  line-height: 1.8;
-  margin: 0 auto 1.5em;
-  max-width: 800px;
-  padding: 0 15px;
-}
-
-/* ================== Partner Section Styling ================== */
+/* ================== Partner Detail Section ================== */
 .partner {
-  padding: 60px 20px;
+  padding: 3.333em 1.25em;
+  text-align: left;
 }
 
 .partner .container {
-  margin: auto;
-  max-width: 800px;
+  max-width: 50em;
 }
 
 .partner h1 {
   font-size: 2.5em;
-  margin-bottom: 20px;
+  margin-bottom: 1.111em;
   text-align: center;
 }
 
 .partner h2 {
   font-size: 2em;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  text-align: left;
+  margin: 2.5em 0 1.111em;
 }
 
-.partner p {
+.partner p,
+.partner ul,
+.partner li {
   font-size: 1em;
   line-height: 1.6;
-  margin-bottom: 20px;
 }
 
 .partner ul {
   list-style-type: disc;
-  margin: 0 0 20px 20px;
+  margin: 0 0 1.25em 1.25em;
   padding: 0;
 }
 
 .partner li {
-  font-size: 1em;
-  line-height: 1.6;
-  margin-bottom: 10px;
+  margin-bottom: 0.625em;
 }
 
 /* ================== Schedule Section ================== */
 .schedule {
-  background: #fff;
-  padding: 60px 0;
+  background: var(--white);
+  padding: 3.333em 0;
 }
 
 .schedule h1 {
   font-size: 2.5em;
-  margin-bottom: 20px;
+  margin-bottom: 1.111em;
   text-align: center;
 }
 
 .schedule-table {
   border-collapse: collapse;
-  margin: 20px 0;
+  margin: 1.25em 0;
   width: 100%;
 }
 
 .schedule-table th,
 .schedule-table td {
-  border: 1px solid #ddd;
-  padding: 10px;
+  border: 0.063em solid #ddd;
+  padding: 0.625em;
 }
 
 .schedule-table th {
@@ -541,23 +468,24 @@ a:not(.btn):focus::after,
 
 .schedule-table .presenter-img {
   border-radius: 50%;
-  height: 40px;
-  margin-right: 10px;
+  height: 2.5em;
+  margin-right: 0.625em;
   vertical-align: middle;
-  width: 40px;
+  width: 2.5em;
 }
 
 /* ================== Code of Conduct ================== */
 .cod {
   background: var(--white);
+  padding: 3em 1em;
   font-size: 1em;
   line-height: 1.8;
-  padding: 3em 1em;
+  text-align: center;
 }
 
 .cod .container {
-  margin: 0 auto;
   max-width: 50em;
+  margin: 0 auto;
 }
 
 .cod h1 {
@@ -568,12 +496,7 @@ a:not(.btn):focus::after,
 
 .cod h2 {
   font-size: 2em;
-  margin-bottom: 20px;
-}
-
-.cod p {
-  font-size: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 1.25em;
 }
 
 .cod ul {
@@ -609,20 +532,20 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 40px 0;
+  padding: 2.5em 0;
 }
 
 .footer-col {
   flex: 1;
-  margin-bottom: 20px;
-  min-width: 200px;
+  min-width: 12.5em;
+  margin-bottom: 1.25em;
 }
 
 .footer-col h3 {
   color: var(--white);
   font-size: 1.1em;
   margin: 0;
-  padding: 10px 0;
+  padding: 0.625em 0;
 }
 
 .footer-col ul {
@@ -630,7 +553,7 @@ footer {
 }
 
 .footer-col ul li {
-  margin-bottom: 8px;
+  margin-bottom: 0.5em;
 }
 
 .footer-col ul li a {
@@ -639,10 +562,10 @@ footer {
 }
 
 .footer-bottom {
-  border-top: 1px solid var(--white);
+  border-top: 0.063em solid var(--white);
   color: var(--white);
   font-size: 0.9em;
-  padding: 20px 0;
+  padding: 1.25em 0;
   text-align: center;
 }
 
@@ -663,7 +586,9 @@ footer {
 }
 
 /* ================== Responsive Styles ================== */
-@media (max-width: 900px) {
+@media (max-width: 56.25em) {
+
+  /* 900px */
   .header-container {
     flex-wrap: wrap;
   }
@@ -677,7 +602,6 @@ footer {
     order: 2;
   }
 
-  /* Nav links appear under the button */
   .nav-links {
     display: none;
     flex-direction: column;
@@ -686,7 +610,7 @@ footer {
   }
 
   .nav-links a {
-    margin: 10px 0;
+    margin: 0.625em 0;
   }
 
   .nav-links.active {
@@ -702,7 +626,9 @@ footer {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 30em) {
+
+  /* 480px */
   .hero h1 {
     font-size: 2em;
   }
