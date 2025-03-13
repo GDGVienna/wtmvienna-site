@@ -11,7 +11,7 @@ title: Women Techmakers Vienna
 <section class="hero-content">
   <div class="container">
     <h2>International Women's Day</h1>
-    <p>IDW2025 will be an online event and takes place on</p>
+    <p>IWD2025 will be an online event and takes place on</p>
     <p class="event-date">April 09, 2025</p>
     <p class="event-time">18:00 - 20:00 CET</p>
   </div>
