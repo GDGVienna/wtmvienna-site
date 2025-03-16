@@ -81,7 +81,3 @@ You can deploy the contents of the `_site` directory to any static hosting servi
 - [Netlify](https://www.netlify.com/)
 - [Vercel](https://vercel.com/)
 - [GitHub Pages](https://pages.github.com/)
-
-## License
-
-This project is open-source and available under the [ISC License](LICENSE).
