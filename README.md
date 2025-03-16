@@ -1,83 +1,15 @@
 # Welcome to Women Techmakers Vienna
 
-A responsive static website built with [Eleventy](https://www.11ty.dev/), HTML, CSS, and JavaScript. This project serves as the official website for Women Techmakers Vienna, featuring sections such as a hero banner, about, schedule, partners, and more.
+Based in the heart of Vienna, Women Techmakers Vienna is a vibrant community dedicated to empowering women and people with disabilities in tech. We celebrate the innovative work and unique contributions of underrepresented voices in the technology field while fostering an inclusive environment where every individual can thrive. Join us as we share inspiring stories, host engaging events, and advocate for equality, diversity, and innovation in tech.
 
-## Table of Contents
+A responsive static website built with [Eleventy](https://www.11ty.dev/), HTML, CSS, and JavaScript.
 
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Development](#development)
-- [Project Structure](#project-structure)
-- [Building for Production](#building-for-production)
-- [Customization](#customization)
-- [Deployment](#deployment)
-- [License](#license)
+## Report a bug 🐛
 
-## Prerequisites
+Thank you for taking part in making this website accessible. I am doing my best to make this website as accessible as possible. As I maintain this website on my own, it takes time to fix these issues, so please be patient with me.
 
-- **Node.js**: Make sure you have Node.js installed (version 12 or higher is recommended).
-- **npm**: Comes pre-installed with Node.js.
+> [!IMPORTANT]
+> Please make sure that the problem has not already been reported before you raise it. I am happy to hear about any accessibility issues you find.
 
-## Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/GDGVienna/wtmvienna-site.git
-   cd wtmvienna-site
-   ```
-
-2. **Install dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-## Development
-
-To run the development server with live reloading, execute:
-
-```bash
-npx eleventy --serve
-```
-
-This command starts the Eleventy server, and you can view your site in a browser at [http://localhost:8080](http://localhost:8080).
-
-## Project Structure
-
-```
-/your-repo
-├── .eleventy.js         # Eleventy configuration file
-├── package.json         # Project metadata and dependencies
-├── README.md            # This file
-└── src                  # Source files
-    ├── _includes        # Template partials (header, footer, etc.)
-    ├── assets           # CSS, JavaScript, images, etc.
-    ├── index.md         # Homepage content (Markdown)
-    ├── schedule.md      # Schedule page content
-    └── ...              # Other pages and content
-```
-
-## Building for Production
-
-To generate a static version of your site, run:
-
-```bash
-npx eleventy
-```
-
-The output will be generated in the `_site` directory, which you can deploy to any static hosting service.
-
-## Customization
-
-- **Templates:** Edit your HTML or Markdown files in the `src/` directory. Use the `_includes` folder for reusable components like headers and footers.
-- **Styling:** Modify your CSS files in `src/assets/css/` to adjust the look and feel of your site.
-- **JavaScript:** Place custom scripts in `src/assets/js/` and include them in your templates as needed.
-
-## Deployment
-
-You can deploy the contents of the `_site` directory to any static hosting service, such as:
-
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [GitHub Pages](https://pages.github.com/)
+- [Search existing issues](https://github.com/GDGVienna/wtmvienna-site/issues)
+- [Report a bug](https://github.com/GDGVienna/wtmvienna-site/issues/new?assignees=&labels=%F0%9F%9B%A0+goal%3A+fix&projects=&template=bug.yml)
