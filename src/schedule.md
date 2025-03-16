@@ -17,57 +17,71 @@ title: Event Schedule
         <tr>
           <td>18:00</td>
           <td>
-            <b>TBD</b><br>
-            <img src="/assets/images/presenter1.jpg" alt="" class="presenter-img">
-            Name LastName
+            <img src="/assets/images/speakers/julia.jpg" alt="" class="presenter-img" width="50" height="50">
+            <p>
+              <b>Opening IWD Event</b><br />
+              Julia Undeutsch
+            </p>
           </td>
         </tr>
         <tr>
           <td>18:15</td>
           <td>
-            <b>TBD</b><br>
-            <img src="/assets/images/presenter2.jpg" alt="" class="presenter-img">
-            Name LastName
+            <img src="/assets/images/speakers/laura.jpg" alt="" class="presenter-img" width="50" height="50">
+            <p>
+              <b>Keynote: TBD</b><br />
+              Laura Wissiak
+            </p>
           </td>
         </tr>
         <tr>
           <td>18:45</td>
-          <td>
-            <b>TBD</b><br>
-            <img src="/assets/images/presenter3.jpg" alt="" class="presenter-img">
-            Name LastName
+           <td>
+            <img src="/assets/images/speakers/tbd.jpg" alt="" class="presenter-img" width="50" height="50">
+            <p>
+              <b>TBD</b><br />
+              TBD
+            </p>
           </td>
         </tr>
         <tr>
           <td>19:10</td>
-          <td>
-            <b>TBD</b><br>
-            <img src="/assets/images/presenter4.jpg" alt="" class="presenter-img">
-            Name LastName
+           <td>
+            <img src="/assets/images/speakers/tbd.jpg" alt="" class="presenter-img" width="50" height="50">
+            <p>
+              <b>TBD</b><br />
+              TBD
+            </p>
           </td>
         </tr>
         <tr>
           <td>19:30</td>
-          <td>
-            <b>TBD</b><br>
-            <img src="/assets/images/presenter5.jpg" alt="" class="presenter-img">
-            Name LastName
+           <td>
+            <img src="/assets/images/speakers/tbd.jpg" alt="" class="presenter-img" width="50" height="50">
+            <p>
+              <b>TBD</b><br />
+              TBD
+            </p>
           </td>
         </tr>
         <tr>
           <td>19:50</td>
-          <td>
-            <b>TBD</b><br>
-            <img src="/assets/images/presenter6.jpg" alt="" class="presenter-img">
-            Name LastName
+           <td>
+            <img src="/assets/images/speakers/tbd.jpg" alt="" class="presenter-img" width="50" height="50">
+            <p>
+              <b>TBD</b><br />
+              TBD
+            </p>
           </td>
         </tr>
         <tr>
           <td>20:00</td>
-          <td>
-            <b>Closing</b><br>
-            <img src="/assets/images/presenter1.jpg" alt="" class="presenter-img">
-            Name LastName
+           <td>
+            <img src="/assets/images/speakers/julia.jpg" alt="" class="presenter-img" width="50" height="50">
+            <p>
+              <b>Closing words</b><br />
+              Julia Undeutsch
+            </p>
           </td>
         </tr>
       </tbody>
