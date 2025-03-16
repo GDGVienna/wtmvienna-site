@@ -164,7 +164,7 @@ a:not(.btn):focus::after,
 
 /* ================== Hero Section ================== */
 .hero {
-  background: url("../images/banner.png") center/cover no-repeat;
+  background: url("../images/banners/IWD-rect.png") center/contain no-repeat #CAE6FF;
   min-height: 50vh;
 }
 
@@ -195,13 +195,8 @@ a:not(.btn):focus::after,
 
 @media screen and (max-width: 48em) {
   .hero {
-    background: url("../images/banner-small.png") center/cover no-repeat;
+    background: url("../images/banners/IWD-sqr.png") center/contain no-repeat;
     min-height: 50vh;
-  }
-
-  .hero-content {
-    background-color: #20344B;
-    color: #CAE6FF;
   }
 }
 
@@ -214,7 +209,8 @@ a:not(.btn):focus::after,
 .team,
 .partner,
 .schedule,
-.cod {
+.cod,
+.archive {
   text-align: center;
   padding: 3.333em 0;
   background: var(--white);
@@ -227,7 +223,8 @@ a:not(.btn):focus::after,
 .team h1,
 .partner h1,
 .schedule h1,
-.cod h1 {
+.cod h1,
+.archive h1 {
   font-size: 2.5em;
   margin-bottom: 1.111em;
 }
@@ -239,7 +236,8 @@ a:not(.btn):focus::after,
 .team h2,
 .partner h2,
 .schedule h2,
-.cod h2 {
+.cod h2,
+.archive h2 {
   font-size: 2em;
   margin-bottom: 1.111em;
 }
@@ -249,9 +247,9 @@ a:not(.btn):focus::after,
 .wtm p,
 .swit p,
 .team p,
-.partner p,
-.schedule p,
-.cod p {
+.partners p,
+.cod p,
+.archive p {
   /* Use shared text style */
   /* (Apply .section-text class in HTML if preferred) */
   font-size: 1em;
@@ -384,6 +382,37 @@ a:not(.btn):focus::after,
   border: 0.188em solid var(--primary-color);
 }
 
+.btn-container {
+  gap: 1.25em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2.5em;
+}
+
+.btn-red {
+  background: var(--secondary-color);
+  border: 0.188em solid var(--secondary-color);
+  color: var(--white);
+}
+
+.btn-red__outline {
+  background: var(--white);
+  border: 0.188em solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.btn-red:hover,
+.btn-red:focus {
+  border: 0.188em solid var(--white);
+}
+
+.btn-red__outline:hover,
+.btn-red__outline:focus {
+  outline: 0.188em solid var(--secondary-color);
+  outline-offset: -10px;
+}
+
 /* ================== Page Sections (IWD, WTM, SWIT, TEAM) ================== */
 /* These sections share identical styling */
 .iwd,
@@ -462,6 +491,13 @@ a:not(.btn):focus::after,
   text-align: left;
 }
 
+.schedule-table td:nth-child(2) {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+
 .schedule-table td:first-child {
   width: 15%;
 }
@@ -472,6 +508,51 @@ a:not(.btn):focus::after,
   margin-right: 0.625em;
   vertical-align: middle;
   width: 2.5em;
+}
+
+.schedule-table b {
+  font-size: larger;
+}
+
+.speakers, .members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25em;
+  justify-content: center;
+}
+
+.speaker, .member {
+  --s: 16px;
+  --w: 300px;
+  width: round(var(--w), 4 * var(--s));
+  aspect-ratio: 1 / 1.2;
+  border: calc(2 * var(--s)) solid transparent;
+  padding: calc(3 * var(--s) / 2);
+  box-sizing: border-box;
+  background: var(--tertiary-color);
+  mask:
+    conic-gradient(#000 0 0) no-repeat 50% / calc(100% - 6 * var(--s)) calc(100% - 6 * var(--s)),
+    radial-gradient(var(--s), #000 100%, transparent calc(100% + 1px)) 0 0 / calc(4 * var(--s)) calc(4 * var(--s)),
+    radial-gradient(var(--s), transparent calc(100% - 1px), #000) var(--s) var(--s) / calc(2 * var(--s)) calc(2 * var(--s)) padding-box;
+}
+
+.member {
+  background: var(--secondary-color);
+  color: var(--white);
+}
+
+.speaker img, .member img {
+  border-radius: 50%;
+}
+
+.speaker p {
+  font-size: smaller;
+}
+
+.member h2 {
+  color: var(--white);
+  font-size: 1.2em;
+  margin: 0;
 }
 
 /* ================== Code of Conduct ================== */

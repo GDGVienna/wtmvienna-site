@@ -14,6 +14,10 @@ title: Women Techmakers Vienna
     <p>IWD2025 will be an online event and takes place on</p>
     <p class="event-date">April 09, 2025</p>
     <p class="event-time">18:00 - 20:00 CET</p>
+    <div class="btn-container">
+      <a class="btn btn-red" href="/iwd2025/">Go to IWD Event</a>
+      <a class="btn btn-red__outline" href="/schedule/">Go to IWD Schedule</a>
+    </div>
   </div>
 </section>
 
@@ -33,17 +37,17 @@ title: Women Techmakers Vienna
   <div class="cards">
     <div class="card">
       <h3>Conference</h3>
-      <img src="./assets/images/conference.png" width="250" height="170" alt="" />
+      <img src="./assets/images/homepage/conference.png" width="250" height="170" alt="" />
       <p>Supporting women and people with disabilities in tech through the power of example.</p>
     </div>
     <div class="card">
       <h3>Discussion</h3>
-      <img src="./assets/images/discussion.png" width="250" height="170" alt="" />
+      <img src="./assets/images/homepage/discussion.png" width="250" height="170" alt="" />
       <p>How can we close the gender gap in science, tech, engineering &amp; mathematics? On-stage panel discussion with experts and leaders.</p>
     </div>
     <div class="card">
       <h3>Hackathon</h3>
-      <img src="./assets/images/hackathon.png" width="250" height="170" alt="" />
+      <img src="./assets/images/homepage/hackathon.png" width="250" height="170" alt="" />
       <p>High-tech workshops, hands-on experience, hacking and debugging. Delivered by top women in tech!</p>
     </div>
   </div>
@@ -55,7 +59,7 @@ title: Women Techmakers Vienna
     <h2>What we stand for</h2>
     <div class="cards">
       <div class="card">
-      <img src="./assets/images/mission.png" width="100" height="100" alt="" />
+      <img src="./assets/images/homepage/mission.png" width="100" height="100" alt="" />
         <h3>Mission</h3>
         <p>
           Our mission is to empower women and people with disabilities in Vienna’s tech community by creating opportunities for learning, innovation, and growth. We host engaging events and workshops that foster mentorship and skill development, ensuring every individual can access the resources they need.
@@ -64,7 +68,7 @@ title: Women Techmakers Vienna
         </p>
       </div>
       <div class="card">
-      <img src="./assets/images/value.png" width="100" height="100" alt="" />
+      <img src="./assets/images/homepage/value.png" width="100" height="100" alt="" />
         <h3>Values</h3>
         <p>
           We believe in the power of inclusivity, respect, and collaboration as the cornerstones of progress in technology. Our values are reflected in our commitment to transparency, continuous learning, and mutual support, ensuring every voice is celebrated.
@@ -73,7 +77,7 @@ title: Women Techmakers Vienna
         </p>
       </div>
       <div class="card">
-    <img src="./assets/images/vision.png" width="100" height="100" alt="" />
+    <img src="./assets/images/homepage/vision.png" width="100" height="100" alt="" />
         <h3>Vision</h3>
         <p>
           Our vision is to transform Vienna into a leading center for inclusive innovation in the tech industry. We envision a future where gender, ability, and background are celebrated as strengths, and where opportunities in STEM are accessible to all.
@@ -93,13 +97,13 @@ title: Women Techmakers Vienna
   <h3>Main Organizers</h3>
   <div class="partner-items">
     <div class="partner-item">
-      <img src="/assets/images/logo.png" alt="Women Techmakers" width="350" height="350">
+      <img src="/assets/images/WTM-logos/logo.png" alt="Women Techmakers" width="350" height="350">
     </div>
     <div class="partner-item">
-      <img src="/assets/images/gdg-vienna.png" alt="GDG Vienna" width="250" height="250">
+      <img src="/assets/images/sponsors/gdg-vienna.png" alt="GDG Vienna" width="250" height="250">
     </div>
     <div class="partner-item">
-      <img src="/assets/images/a11y1st-logo.png" alt="Accessibility First" width="250" height="250">
+      <img src="/assets/images/sponsors/a11y1st-logo.png" alt="Accessibility First" width="250" height="250">
     </div>
   </div>
 
