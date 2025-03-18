@@ -491,7 +491,7 @@ a:not(.btn):focus::after,
   text-align: left;
 }
 
-.schedule-table td:nth-child(2) {
+.schedule-table td div {
   align-items: center;
   display: flex;
   justify-content: flex-start;
@@ -504,14 +504,23 @@ a:not(.btn):focus::after,
 
 .schedule-table .presenter-img {
   border-radius: 50%;
-  height: 2.5em;
+  height: 3em;
   margin-right: 0.625em;
   vertical-align: middle;
-  width: 2.5em;
+  width: 3em;
 }
 
-.schedule-table b {
+.schedule-table div p {
+  font-size: 1em;
+}
+
+.schedule-table div b {
   font-size: larger;
+}
+
+.schedule-table div + p {
+  margin-top: 1em;
+  text-align: start;
 }
 
 .speakers, .members {
