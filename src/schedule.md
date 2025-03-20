@@ -72,11 +72,11 @@ title: Event Schedule
            <div>
             <img src="/assets/images/speakers/stefanie.jpg" alt="" class="presenter-img" width="50" height="50">
             <p>
-              <b>Inclusive and gender-sensitive language</b><br />
+              <b>Digital Accessibility and gender-sensitive language</b><br />
               Stefanie Gilber
             </p>
             </div>
-            <p>Stefanie is guiding you through her research on how different forms of gender-sensitive language in German (especially new word creations with symbols like "*" (asterisk), "_" (underscore) and ":" (colon)) are affecting blind and visually impaired people.</p>
+            <p>In this talk, Stefanie will share her journey and growing interest in digital accessibility, sparked by professional demands and her master's studies. She will present the key findings of her research, which demonstrate how gender-sensitive language supports the visibility of gender diversity and why it is as important for inclusive communication as considering people with disabilities. Discover how different forms of gender-sensitive language meet the needs of blind and visually impaired individuals and the recommendations that can be derived from these findings.</p>
           </td>
         </tr>
         <tr>
