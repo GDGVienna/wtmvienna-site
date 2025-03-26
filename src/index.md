@@ -15,7 +15,7 @@ title: Women Techmakers Vienna
     <p class="event-date">April 09, 2025</p>
     <p class="event-time">18:00 - 20:00 CET</p>
     <div class="btn-container">
-      <a class="btn btn-red" href="/iwd2025/">Go to IWD Event</a>
+      <a class="btn btn-red" href="https://gdg.community.dev/events/details/google-gdg-vienna-presents-international-womens-day-iwd-2025-redefine-possible-virtual/">RSVP to the event</a>
       <a class="btn btn-red__outline" href="/schedule/">Go to IWD Schedule</a>
     </div>
   </div>
