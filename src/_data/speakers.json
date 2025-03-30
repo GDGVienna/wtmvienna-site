@@ -1,0 +1,36 @@
+{
+  "organizers": [
+    {
+      "name": "Julia Undeutsch",
+      "image": "/assets/images/speakers/julia.jpg",
+      "title": "Accessibility Specialist in UX and Development"
+    }
+  ],
+  "2025": [
+    {
+      "name": "Ayu Adiati",
+      "image": "/assets/images/speakers/ayu.jpg",
+      "title": "Open Source Maintainer and Contributor"
+    },
+    {
+      "name": "Cathy Chi",
+      "image": "/assets/images/speakers/cathy.jpg",
+      "title": "Senior Frontend Developer"
+    },
+    {
+      "name": "Stefanie Gilber",
+      "image": "/assets/images/speakers/stefanie.jpg",
+      "title": "Website & Marketing"
+    },
+    {
+      "name": "Tia Nguyen",
+      "image": "/assets/images/speakers/tia.jpg",
+      "title": "Fullstack Developer"
+    },
+    {
+      "name": "Laura Wissiak",
+      "image": "/assets/images/speakers/laura.jpg",
+      "title": "UX Researcher for Assistive tech"
+    }
+  ]
+}
