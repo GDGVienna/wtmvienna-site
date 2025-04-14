@@ -4,20 +4,35 @@ title: Women Techmakers Vienna
 ---
 
 <!-- Hero Section -->
-<section class="hero">
+<!-- <section class="hero">
   <h1 class="sr-only">Welcome to Women Techmakers Vienna</h1>
+</section> -->
+
+<section class="hero hero-after">
+  <div class="container">  
+    <h1 class="sr-only">Welcome to Women Techmakers Vienna</h1>
+    <p>This was</p>
+    <h2>International Women's Day 2025</h1>
+    <p>On April 09, an online event with 5 amazing women took place from 6pm-8pm.</p>
+  </div>
 </section>
 
 <section class="hero-content">
-  <div class="container">
-    <h2>International Women's Day</h1>
-    <p>IWD2025 will be an online event and takes place on</p>
-    <p class="event-date">April 09, 2025</p>
-    <p class="event-time">18:00 - 20:00 CET</p>
-    <div class="btn-container">
-      <a class="btn btn-red" href="https://gdg.community.dev/events/details/google-gdg-vienna-presents-international-womens-day-iwd-2025-redefine-possible-virtual/">RSVP to the event</a>
-      <a class="btn btn-red__outline" href="/schedule/">Go to IWD Schedule</a>
+  <div class="container">  
+    <!-- <p class="event-date">April 09, 2025</p>
+    <p class="event-time">18:00 - 20:00 CET</p> -->
+    <div class="video-container">
+      <iframe 
+        title="International Women’s Day (IWD) 2025: Redefine Possible | Virtual, April 09, 2025"
+        style="aspect-ratio: 16 / 9; width:100%;"
+        src="https://www.youtube-nocookie.com/embed/aAXkw1UaEtg"
+        allow="autoplay"
+        allowfullscreen
+        loading="lazy"
+        srcdoc="&lt;style&gt;body{background-image:url(assets/images/banners/IWDSpeakers.png);background-repeat:no-repeat;background-size:cover;background-position:center center;display:grid;place-items:center;min-height:97dvh;overflow:hidden;}a{display:block;width:96px;height:96px;overflow:hidden;}a:focus{outline:none;}a:focus circle,a:hover circle{fill:#000;}a:focus circle:first-child + circle,a:hover circle:first-child + circle{stroke-dasharray:.4,.4;}a:focus polygon,a:hover polygon{stroke:#fff;stroke-width:.75;}&lt;/style&gt;&lt;a href='https://www.youtube-nocookie.com/embed/aAXkw1UaEtg?autoplay=1'&gt;&lt;svg viewBox='0 0 16 16' width='96' height='96' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'&gt;&lt;circle cx='50%' cy='50%' r='7.75' fill='none' stroke='#000' stroke-width='.5'/&gt;&lt;circle cx='50%' cy='50%' r='7.25' fill='none' stroke='#fff' stroke-width='.5'/&gt;&lt;circle cx='50%' cy='50%' r='7' fill='#0009'/&gt;&lt;polygon points='12, 8 6, 4.5 6, 11.5' fill='#fff' stroke-linejoin='round'&gt;&lt;/polygon&gt;&lt;/svg&gt;Play&lt;/a&gt;">
+      </iframe>
     </div>
+    <a href="https://drive.google.com/drive/folders/19pulyMbak1Hm3YNLuV3dFli4VWpcdp3f?usp=sharing">Event Slides in Google Drive</a>
   </div>
 </section>
 

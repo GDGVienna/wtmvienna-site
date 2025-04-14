@@ -1,11 +1,21 @@
 :root {
   --black: #000;
-  --dark-color: #333;
-  --light-color: #f5f5f5;
-  --primary-color: #0f0a47;
-  --secondary-color: #b60202;
-  --tertiary-color: #cbbbff;
+  --text-dark: #202124; /* #333 */
+  --light-color: #f5f5f5; /* #f5f5f5 */
+  --primary-color: #0f0a47;  /* #0f0a47 */
+  --secondary-color: #b60202; /* #b60202 */
+  --tertiary-color: #E8F0FE; /* #cbbbff */
   --white: #fff;
+  --wtm-green: #00a88c;
+  --wtm-blue: #2480f0;
+  --iwd-blue: #54A7ED;
+  --iwd-light-blue: #CAE6FF;
+  --iwd-dark-blue: #165185;
+  --iwd-darkest-blue: #20344B;
+  --iwd-light-green: #D1ECE3;
+  --iwd-green: #00DBA2;
+  --iwd-dark-green: #0F7C67;
+  --iwd-darkest-green: #1A3E38;
 }
 
 /* ================== Basic Reset and Typography ================== */
@@ -17,7 +27,7 @@
 
 body {
   background: var(--white);
-  color: var(--black);
+  color: var(--text-dark);
   font-family: "Nunito sans", sans-serif;
   font-size: 1.125em;
   /* 18px */
@@ -54,8 +64,8 @@ body {
   padding: 0.625em;
   top: 0;
   width: auto;
-  background: var(--primary-color);
-  color: var(--white);
+  background: var(--wtm-blue);
+  color: var(--text-dark);
   z-index: 1000;
 }
 
@@ -77,7 +87,7 @@ h4,
 h5,
 h6,
 a {
-  color: var(--primary-color);
+  color: var(--text-dark);
 }
 
 .section-text {
@@ -113,7 +123,7 @@ header {
 .menu-toggle {
   background: none;
   border: none;
-  color: var(--primary-color);
+  color: var(--text-dark);
   cursor: pointer;
   display: none;
   font-size: 1em;
@@ -164,22 +174,47 @@ a:not(.btn):focus::after,
 
 /* ================== Hero Section ================== */
 .hero {
-  background: url("../images/banners/IWD-rect.png") center/contain no-repeat #CAE6FF;
+  /* background: url("../images/banners/IWDSpeakers.png") center/contain no-repeat var(--iwd-light-blue); */
+  background-color: var(--iwd-light-blue);
   min-height: 50vh;
 }
 
+.hero-after {
+  align-items: center;
+  display: flex;
+  min-height: 40vh;
+  text-align: center;
+}
+
+.hero-after .container {
+  margin: auto;
+}
+
+.hero-after .container h2 {
+  font-size: 3em;
+}
+
+.hero-after .container p {
+  font-size: 1.5em;
+}
+
 .hero-content {
-  background-color: var(--primary-color);
-  color: var(--tertiary-color);
+  background-color: var(--iwd-darkest-blue);
+  color: var(--iwd-light-blue);
   margin: 1.111em 0;
   padding: 4.444em 0;
   text-align: center;
 }
 
 .hero-content h2 {
+  color: var(--iwd-light-blue);
   font-size: 3em;
   margin-bottom: 1.111em;
-  color: var(--tertiary-color);
+}
+
+.hero-content h3 {
+  color: var(--iwd-light-blue);
+  margin-bottom: 1.111em;
 }
 
 .hero-content p {
@@ -187,18 +222,33 @@ a:not(.btn):focus::after,
   margin-bottom: 1.111em;
 }
 
-.hero-content .event-date,
+.hero-content a {
+  color: var(--iwd-light-blue);
+  display: block;
+  font-size: 1.5em;
+  margin-block: 1.111em;
+}
+
+.hero-content a:focus:before {
+  left: 12em;
+}
+
+.hero-content a:focus:after {
+  right: 12em;
+}
+
+/* .hero-content .event-date,
 .hero-content .event-time {
   font-size: 2.2em;
   margin-bottom: 0;
-}
+} */
 
-@media screen and (max-width: 48em) {
+/* @media screen and (max-width: 48em) {
   .hero {
     background: url("../images/banners/IWD-sqr.png") center/contain no-repeat;
     min-height: 50vh;
   }
-}
+} */
 
 /* ================== Section Base Styles ================== */
 /* These rules apply to multiple sections that share similar text styles */
@@ -391,8 +441,8 @@ a:not(.btn):focus::after,
 }
 
 .btn-red {
-  background: var(--secondary-color);
-  border: 0.188em solid var(--secondary-color);
+  background: var(--iwd-green);
+  border: 0.188em solid var(--iwd-green);
   color: var(--white);
 }
 
