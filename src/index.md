@@ -154,3 +154,36 @@ title: Women Techmakers Vienna
 </div>
 
 </section>
+
+<section class="sdg-section">
+  <h2>Our Commitment to the Sustainable Development Goals</h2>
+  <p>We proudly align our work with the UN SDGs to promote inclusion, accessibility, and sustainability.</p>
+  <div class="sdg-grid">
+    <div class="sdg-item">
+      <img src="/assets/images/sdg/5.png" alt="SDG 5 - Gender Equality">
+      <h3>SDG 5</h3>
+      <p>Empowering women in technology and advocating for gender balance.</p>
+    </div>
+    <div class="sdg-item">
+      <img src="/assets/images/sdg/10.png" alt="SDG 10 - Reduced Inequalities">
+      <h3>SDG 10</h3>
+      <p>Championing accessibility and inclusion for people with disabilities.</p>
+    </div>
+    <div class="sdg-item">
+      <img src="/assets/images/sdg/9.png" alt="SDG 9 - Industry, Innovation and Infrastructure">
+      <h3>SDG 9</h3>
+      <p>Innovative digital tools for accessibility and inclusion.</p>
+    </div>
+    <div class="sdg-item">
+      <img src="/assets/images/sdg/11.png" alt="SDG 11 - Sustainable Cities and Communities">
+      <h3>SDG 11</h3>
+      <p>Promoting accessible mobility and assistive technology.</p>
+    </div>
+    <div class="sdg-item">
+      <img src="/assets/images/sdg/13.png" alt="SDG 13 - Climate Action">
+      <h3>SDG 13</h3>
+      <p>Advocating for green code and eco-conscious solutions.</p>
+    </div>
+  </div>
+  <p class="sdg-note">The SDG icons are used in line with UN guidelines to represent our commitment to these global goals.</p>
+</section>

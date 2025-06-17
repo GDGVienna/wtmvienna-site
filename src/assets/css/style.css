@@ -782,3 +782,51 @@ footer {
     flex-direction: column;
   }
 }
+
+
+
+
+
+.sdg-section {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.sdg-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.sdg-section p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.sdg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+}
+
+.sdg-item img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.sdg-item h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.sdg-item p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.sdg-note {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 2rem;
+}
