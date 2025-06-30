@@ -16,6 +16,8 @@
   --iwd-green: #00DBA2;
   --iwd-dark-green: #0F7C67;
   --iwd-darkest-green: #1A3E38;
+  --wtm-green-dark: #02C1A6;
+
 }
 
 /* ================== Basic Reset and Typography ================== */
@@ -477,7 +479,6 @@ a:not(.btn):focus::after,
 /* ================== Partner Detail Section ================== */
 .partner {
   padding: 3.333em 1.25em;
-  text-align: left;
 }
 
 .partner .container {
@@ -506,10 +507,15 @@ a:not(.btn):focus::after,
   list-style-type: disc;
   margin: 0 0 1.25em 1.25em;
   padding: 0;
+  text-align: left;
 }
 
 .partner li {
   margin-bottom: 0.625em;
+}
+
+.partner a {
+  margin-top: 2.5em;
 }
 
 /* ================== Schedule Section ================== */
@@ -596,9 +602,9 @@ a:not(.btn):focus::after,
     radial-gradient(var(--s), transparent calc(100% - 1px), #000) var(--s) var(--s) / calc(2 * var(--s)) calc(2 * var(--s)) padding-box;
 }
 
-.member {
-  background: var(--secondary-color);
-  color: var(--white);
+.team .member {
+  background: var(--wtm-green-dark);
+  color: var(--black);
 }
 
 .speaker img, .member img {
@@ -610,7 +616,7 @@ a:not(.btn):focus::after,
 }
 
 .member h2 {
-  color: var(--white);
+  color: var(--black);
   font-size: 1.2em;
   margin: 0;
 }
