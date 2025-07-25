@@ -1,0 +1,95 @@
+---
+layout: base.njk
+---
+
+<section class="iwd">
+  <div class="container">
+    <h1>{{ title }}</h1>
+    <p>{{ information }}
+    </p>
+    <h2>Organizers</h2>
+    <div class="speakers">
+       {%- for speaker in speakers.organizers -%}
+      <div class="speaker">
+        <img src="{{ speaker.image }}" alt="" class="presenter-img" width="150" height="150">
+        <h3>{{ speaker.name }}</h3>
+        <p>{{ speaker.title }}</p>
+      </div>
+      {%- endfor -%}
+    </div>
+    <h2>Speakers 2025</h2>
+    <div class="speakers">
+      {%- for speaker in speakers["2025"] -%}
+      <div class="speaker">
+        <img src="{{ speaker.image }}" alt="" class="presenter-img" width="150" height="150">
+        <h3>{{ speaker.name }}</h3>
+        <p>{{ speaker.title }}</p>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<section class="schedule">
+  <div class="container">
+  <h2>Schedule</h2>
+  {% if schedule and schedule.length %}
+  <table class="schedule-table">
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Talk Details</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for item in schedule %}
+      <tr>
+        <td>
+          <time>{{ item.time }}</time>
+        </td>
+        <td>
+          <div>
+            <img src="{{ item.img }}" loading="lazy" alt="" class="presenter-img" width="50" height="50">
+            <p>
+              <b>{{ item.title }}</b><br />
+              {% if item.speaker %} by {{ item.speaker }} {% endif %}
+            </p>
+          </div>
+          <p>{{ item.description }}</p>
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+    <p>Schedule to be announced.</p>
+  {% endif %}
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Recording and Slides</h2>
+  {% if slides %}
+
+    <a href="{{ slides }}">Event Slides in Google Drive</a>
+    {% endif %}
+
+  {% if recording %}
+
+  
+  <div class="video-container">
+      <iframe 
+        title="{{ title }}: {{ topic }}"
+        style="aspect-ratio: 16 / 9; width:100%;"
+        src="{{ recording }}"
+        allow="autoplay"
+        allowfullscreen
+        loading="lazy"
+        srcdoc="&lt;style&gt;body{background-image:url('{{ banner }}');background-repeat:no-repeat;background-size:cover;background-position:center center;display:grid;place-items:center;min-height:97dvh;overflow:hidden;}a{display:block;width:96px;height:96px;overflow:hidden;}a:focus{outline:none;}a:focus circle,a:hover circle{fill:#000;}a:focus circle:first-child + circle,a:hover circle:first-child + circle{stroke-dasharray:.4,.4;}a:focus polygon,a:hover polygon{stroke:#fff;stroke-width:.75;}&lt;/style&gt;&lt;a href='{{ recording }}'&gt;&lt;svg viewBox='0 0 16 16' width='96' height='96' xmlns='http://www.w3.org/2000/svg' aria-hidden='true'&gt;&lt;circle cx='50%' cy='50%' r='7.75' fill='none' stroke='#000' stroke-width='.5'/&gt;&lt;circle cx='50%' cy='50%' r='7.25' fill='none' stroke='#fff' stroke-width='.5'/&gt;&lt;circle cx='50%' cy='50%' r='7' fill='#0009'/&gt;&lt;polygon points='12, 8 6, 4.5 6, 11.5' fill='#fff' stroke-linejoin='round'&gt;&lt;/polygon&gt;&lt;/svg&gt;Play&lt;/a&gt;">
+      </iframe>
+    </div>
+
+    {% endif %}
+  </div>
+</section>

@@ -7,7 +7,9 @@
   --tertiary-color: #E8F0FE; /* #cbbbff */
   --white: #fff;
   --wtm-green: #00a88c;
-  --wtm-blue: #2480f0;
+  --wtm-blue: #4FC3F7;
+  --wtm-green-dark: #02C1A6;
+  --wtm-blue-dark: #2480f0;
   --iwd-blue: #54A7ED;
   --iwd-light-blue: #CAE6FF;
   --iwd-dark-blue: #165185;
@@ -16,8 +18,6 @@
   --iwd-green: #00DBA2;
   --iwd-dark-green: #0F7C67;
   --iwd-darkest-green: #1A3E38;
-  --wtm-green-dark: #02C1A6;
-
 }
 
 /* ================== Basic Reset and Typography ================== */
@@ -41,6 +41,11 @@ body {
   max-width: 75em;
   /* approx. 1200px */
   width: 90%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 /* Utility classes */
@@ -603,7 +608,7 @@ a:not(.btn):focus::after,
 }
 
 .team .member {
-  background: var(--wtm-green-dark);
+  background: var(--iwd-light-blue);
   color: var(--black);
 }
 
@@ -833,6 +838,7 @@ footer {
 
 .sdg-note {
   font-size: 0.8rem;
-  color: #888;
+  color: var(--text-dark);
   margin-top: 2rem;
 }
+

@@ -17,7 +17,7 @@ title: Team
       <div class="member">
         <img src="/assets/images/team/viorica.jpg" alt="" class="presenter-img" width="150" height="150">
         <h2>Viorica Sîrghii</h2>
-        <p>Organizer</p>
+        <p>Women Techmakers Ambassador</p>
       </div>
       <div class="member">
         <img src="/assets/images/team/helmuth.jpg" alt="" class="presenter-img" width="150" height="150">
