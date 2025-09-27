@@ -181,84 +181,33 @@ a:not(.btn):focus::after,
 
 /* ================== Hero Section ================== */
 .hero {
-  /* background: url("../images/banners/IWDSpeakers.png") center/contain no-repeat var(--iwd-light-blue); */
-  background-color: var(--iwd-light-blue);
-  min-height: 50vh;
-}
-
-.hero-after {
   align-items: center;
+  background-color: var(--iwd-light-blue);
   display: flex;
-  min-height: 40vh;
+  min-height: 50vh;
+  padding: 3.333em 0;
   text-align: center;
 }
 
-.hero-after .container {
+.hero .container {
   margin: auto;
 }
 
-.hero-after .container h2 {
-  font-size: 3em;
+.hero h1, .hero .callout p {
+  margin-bottom: 0.7em;
 }
 
-.hero-after .container p {
+.hero .container p {
   font-size: 1.5em;
 }
 
-.hero-content {
-  background-color: var(--iwd-darkest-blue);
-  color: var(--iwd-light-blue);
-  margin: 1.111em 0;
-  padding: 4.444em 0;
-  text-align: center;
+.hero .callout {
+  margin-bottom: 2em;
 }
 
-.hero-content h2 {
-  color: var(--iwd-light-blue);
-  font-size: 3em;
-  margin-bottom: 1.111em;
-}
-
-.hero-content h3 {
-  color: var(--iwd-light-blue);
-  margin-bottom: 1.111em;
-}
-
-.hero-content p {
-  font-size: 1.5em;
-  margin-bottom: 1.111em;
-}
-
-.hero-content a {
-  color: var(--iwd-light-blue);
-  display: block;
-  font-size: 1.5em;
-  margin-block: 1.111em;
-}
-
-.hero-content a:focus:before {
-  left: 12em;
-}
-
-.hero-content a:focus:after {
-  right: 12em;
-}
-
-/* .hero-content .event-date,
-.hero-content .event-time {
-  font-size: 2.2em;
-  margin-bottom: 0;
-} */
-
-/* @media screen and (max-width: 48em) {
-  .hero {
-    background: url("../images/banners/IWD-sqr.png") center/contain no-repeat;
-    min-height: 50vh;
-  }
-} */
 
 /* ================== Section Base Styles ================== */
-/* These rules apply to multiple sections that share similar text styles */
+
 .about,
 .iwd,
 .wtm,
@@ -841,4 +790,3 @@ footer {
   color: var(--text-dark);
   margin-top: 2rem;
 }
-

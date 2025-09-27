@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Strong Women in Tech
+title: Strong Women in Tech | Women Techmakers Vienna
 ---
 
 <section class="swit">

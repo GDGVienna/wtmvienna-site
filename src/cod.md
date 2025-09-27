@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Strong Women in Tech
+title: Strong Women in Tech | Women Techmakers Vienna
 ---
 
 <section class="cod">
@@ -39,7 +39,7 @@ This code of conduct applies to all Women Techmakers Vienna spaces, including bu
 
 You can report violations in the following ways:
 
-Email Julia Undeutsch <a href="mailto:yuridevat@gmail.com">yuridevat@gmail.com</a>
+Email WTM Team <a href="mailto:team@womentechmakers.at">team@womentechmakers.at</a>
 
 <h2>Consequences</h2>
 <p>Developers asked to stop any harassing behavior are expected to comply immediately.</p>

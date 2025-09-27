@@ -7,8 +7,24 @@ title: Women Techmakers Vienna
 <section class="hero hero-after">
   <div class="container">
     <h1>Welcome to Women Techmakers Vienna</h1>
-    <p>First WTM Meetup will be on <b>October 29th 2025</b> at enspired.</p>
-    <a href="https://www.meetup.com/women-techmakers-vienna/events/310438552/">Register on MeetUp to attend in person in Vienna.</a></p>
+    <div class="callouts">
+      <div class="callout">
+        <p>
+          🎉 First WTM Meetup will be on <b>October 29th, 2025</b> at enspired.
+        </p>
+        <a href="https://www.meetup.com/women-techmakers-vienna/events/310438552/" class="btn">
+          Register on Meetup
+        </a>
+      </div>
+      <div class="callout">
+        <p>
+          💡 Become a sponsor for our <b>WTM Conference in March 2026</b>.
+        </p>
+        <a href="/become-a-sponsor" class="btn">
+          View Sponsorship Options
+        </a>
+      </div>
+    </div>
   </div>
 </section>
 

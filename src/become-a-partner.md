@@ -1,22 +1,27 @@
 ---
 layout: base.njk
-title: Become a Partner
+title: Become a Partner | Women Techmakers Vienna
 ---
 
 <section class="partner">
   <div class="container">
     <h1>Become a Partner</h1>
-    <p>At Women Techmakers Vienna, we’re on a mission to empower women and people with disabilities in technology. Based in Vienna, our community is dedicated to fostering an inclusive environment where innovative ideas flourish and diverse talents are celebrated. We believe that by partnering with forward-thinking companies, we can create real change in the tech ecosystem.
+    <p>
+      At Women Techmakers Vienna, we believe in long-term collaboration to create meaningful impact. That’s why we invite companies and organizations to join us as <b>partners</b> — supporting our community throughout the year and enabling us to run events and initiatives beyond our annual conference.
+    </p>
     <h2>Why Partner With Us?</h2>
+    <p>
+      As a partner, you help us build a sustainable foundation for our work. Your support makes it possible to:
+    </p>
     <ul>
-        <li><b>Boost Your Brand:</b> Showcase your commitment to diversity and social responsibility.</li>
-        <li><b>Access Top Talent:</b> Connect with a vibrant network of skilled professionals and emerging innovators.</li>
-        <li><b>Drive Change:</b> Help shape a future where everyone has the opportunity to excel in tech.</li>
+      <li><b>Provide Space:</b> Offer your venue to host our meetups, workshops, or networking events.</li>
+      <li><b>Support Year-Round:</b> Contribute financially to cover essential fixed costs such as website hosting, design, and communication tools.</li>
+      <li><b>Stay Connected:</b> Be part of our ongoing activities and connect with our community more than once a year.</li>
+      <li><b>Shape the Future:</b> Collaborate with us on new ideas and initiatives that empower women and people with disabilities in technology.</li>
     </ul>
     <p>
-      Our tailored sponsorship opportunities range from event support to strategic media partnerships, each designed to maximize your company’s exposure while directly impacting the next generation of tech leaders. Join us in our journey to break down barriers and build a more inclusive industry.<br>
-      If you're ready to make a meaningful impact and drive positive change, we’d love to hear from you. Let's work together to create a future where diversity isn’t just celebrated—it’s the standard.
+      By becoming a partner, you’re not just supporting one event — you’re helping to keep our community alive and thriving all year long. Together, we can create lasting opportunities for inclusion, growth, and innovation in tech.
     </p>
-    <a href="https://drive.google.com/file/d/1otTQUahunYUlFBNTh-Q20_rhTrqcl86i/" class="btn">View Partnership Proposal</a>
+    <a class="btn">View Sponsorship Proposal - Currently not available!</a>
   </div>
 </section>

@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Archive
+title: Archive | Women Techmakers Vienna
 ---
 
 <section class="archive">

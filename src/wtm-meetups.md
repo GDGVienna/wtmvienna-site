@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Women Techmakers Meetups
+title: Women Techmakers Meetups | Women Techmakers Vienna
 ---
 
 <section class="wtm">
