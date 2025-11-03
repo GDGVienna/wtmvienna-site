@@ -123,7 +123,7 @@ header {
 .logo img {
   width: 9.375em;
   /* 150px */
-  height: 3.75em;
+  height: 3em;
   /* 60px */
 }
 
@@ -695,6 +695,8 @@ footer {
   }
 
   .logo {
+    align-content: center;
+    display: flex;
     order: 1;
   }
 

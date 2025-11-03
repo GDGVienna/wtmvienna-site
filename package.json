@@ -2,7 +2,7 @@
   "name": "wtmvienna-site",
   "author": "Julia Undeutsch",
   "version": "2.0.0",
-  "keywords": ["Women in Tech, WTM, Google, Vienna, Austria, community, technology, diversity, inclusion, IWD, International Women's Day", "GDG", "GDE", "Google Developer Groups", "Google Developer Experts"],
+  "keywords": ["Women in Tech, WTM, Google, Vienna, Austria, community, technology, diversity, inclusion, IWD, International Women's Day", "GDG", "GDE", "Google Developer Groups", "Google Developer Experts", "Technovation"],
    "homepage": "https://www.womentechmakers.at/",
   "description": "Women Techmakers Vienna is a community based in Vienna, Austria, that aims to provide a safe space for women, people with disabilities, and everyone else to learn, share, and grow in the field of technology.",
   "main": "index.js",

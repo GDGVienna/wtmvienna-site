@@ -48,9 +48,9 @@ title: Women Techmakers Vienna
       <p>Supporting women and people with disabilities in tech through the power of example.</p>
     </div>
     <div class="card">
-      <h3>Discussion</h3>
+      <h3>MeetUps</h3>
       <img src="./assets/images/homepage/discussion.png" width="250" height="170" alt="" />
-      <p>How can we close the gender gap in science, tech, engineering &amp; mathematics? On-stage panel discussion with experts and leaders.</p>
+      <p>How can we close the gender gap in science, tech, engineering &amp; mathematics? In-person meetups with experts and leaders.</p>
     </div>
     <div class="card">
       <h3>Hackathon</h3>
