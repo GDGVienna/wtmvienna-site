@@ -120,6 +120,11 @@ header {
   justify-content: space-between;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .logo img {
   width: 9.375em;
   /* 150px */
@@ -139,44 +144,32 @@ header {
 
 .nav-links {
   display: flex;
+  align-items: center;
 }
 
 .nav-links a {
   font-weight: bold;
   margin-right: 1.563em;
-  /* 25px */
   position: relative;
   text-decoration: none;
 }
 
-a:focus,
-.menu-toggle:focus {
-  outline: none;
-  position: relative;
-}
-
-a:not(.btn):focus::before,
-.menu-toggle::before,
-.nav-links a[aria-current="page"]::before {
-  content: "⌈";
-  position: absolute;
-  top: 50%;
-  left: -0.7em;
-  transform: translateY(-50%);
-}
-
-a:not(.btn):focus::after,
-.menu-toggle::after,
-.nav-links a[aria-current="page"]::after {
-  content: "⌋";
-  position: absolute;
-  top: 50%;
-  right: -0.7em;
-  transform: translateY(-50%);
-}
-
 .nav-links a:last-child {
   margin-right: 0;
+}
+
+/* In your main CSS file */
+.nav-links a[href="/jobs/"] {
+  background-color: var(--wtm-blue);
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.nav-links a[href="/jobs/"]:hover {
+  background-color: var(--wtm-blue);
+  /* A slightly darker shade on hover */
 }
 
 /* ================== Hero Section ================== */
@@ -383,11 +376,6 @@ a:not(.btn):focus::after,
   transition: background 0.3s ease;
 }
 
-.btn:hover,
-.btn:focus {
-  border: 0.188em solid var(--primary-color);
-}
-
 .btn-container {
   gap: 1.25em;
   display: flex;
@@ -406,17 +394,6 @@ a:not(.btn):focus::after,
   background: var(--white);
   border: 0.188em solid var(--secondary-color);
   color: var(--secondary-color);
-}
-
-.btn-red:hover,
-.btn-red:focus {
-  border: 0.188em solid var(--white);
-}
-
-.btn-red__outline:hover,
-.btn-red__outline:focus {
-  outline: 0.188em solid var(--secondary-color);
-  outline-offset: -10px;
 }
 
 /* ================== Page Sections (IWD, WTM, SWIT, TEAM) ================== */
@@ -616,14 +593,6 @@ a:not(.btn):focus::after,
   text-decoration: underline;
 }
 
-.cod a:focus::before {
-  left: -0.4em;
-}
-
-.cod a:focus::after {
-  right: -0.4em;
-}
-
 /* ================== Footer ================== */
 footer {
   background: var(--primary-color);
@@ -676,14 +645,6 @@ footer {
 
 .footer-bottom a {
   color: var(--white);
-}
-
-.footer-bottom a:focus::before {
-  left: -0.4em;
-}
-
-.footer-bottom a:focus::after {
-  right: -0.4em;
 }
 
 /* ================== Responsive Styles ================== */
@@ -745,7 +706,93 @@ footer {
   }
 }
 
+/* ================== Jobs ================== */
 
+.jobs-container {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.job-listings {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.job-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.job-card-header {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.company-logo {
+  max-height: 40px;
+  width: auto;
+  max-width: 150px;
+}
+
+.job-card-body {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.job-card-body h3 {
+  font-size: 22px;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.job-card-body .location {
+  font-size: 16px;
+  color: #555;
+  margin: 0;
+}
+
+.job-card-footer {
+  padding: 20px;
+  background-color: #fcfcfc;
+  border-top: 1px solid #eee;
+}
+
+.apply-button {
+  display: block;
+  background-color: var(--wtm-green);
+  color: black;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+
+.apply-button:hover {
+  background-color: var(--wtm-green-dark);
+}
+
+/* SDG */
 
 
 
