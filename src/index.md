@@ -10,11 +10,11 @@ title: Women Techmakers Vienna
     <div class="callouts">
       <div class="callout">
         <p>
-          🎉 First WTM Meetup will be on <b>October 29th, 2025</b> at enspired.
+          🎉 Next WTM Meetup will be in <b>January 2026</b> at enspired.
         </p>
-        <a href="https://www.meetup.com/women-techmakers-vienna/events/310438552/" class="btn">
+        <!-- <a href="https://www.meetup.com/women-techmakers-vienna/events/310438552/" class="btn">
           Register on Meetup
-        </a>
+        </a> -->
       </div>
       <div class="callout">
         <p>
