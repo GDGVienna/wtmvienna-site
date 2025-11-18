@@ -1,23 +1,24 @@
 :root {
   --black: #000;
-  --text-dark: #202124; /* #333 */
-  --light-color: #f5f5f5; /* #f5f5f5 */
-  --primary-color: #0f0a47;  /* #0f0a47 */
-  --secondary-color: #b60202; /* #b60202 */
-  --tertiary-color: #E8F0FE; /* #cbbbff */
+  --text-dark: #202124;
+  --light-color: #f5f5f5;
+  --clr-green-lighter: #B2F6E7;
+  --clr-green-light: #15E9B7; 
+  --clr-green: #00C0A6;
+  --clr-green-dark: #00806E;
+  --clr-blue-lighter: #C3E6FC;
+  --clr-blue-light: #4DC3F6;
+  --clr-blue: #0077D0;
+  --clr-blue-dark: #004480;
+  --bg-green-lighter: #B2F6E7;
+  --bg-green-light: #15E9B7;
+  --bg-green: #00C0A6;
+  --bg-green-dark: #00806E;
+  --bg-blue-lighter: #C3E6FC;
+  --bg-blue-light: #4DC3F6;
+  --bg-blue: #0077D0;
+  --bg-blue-dark: #004480;
   --white: #fff;
-  --wtm-green: #00a88c;
-  --wtm-blue: #4FC3F7;
-  --wtm-green-dark: #02C1A6;
-  --wtm-blue-dark: #2480f0;
-  --iwd-blue: #54A7ED;
-  --iwd-light-blue: #CAE6FF;
-  --iwd-dark-blue: #165185;
-  --iwd-darkest-blue: #20344B;
-  --iwd-light-green: #D1ECE3;
-  --iwd-green: #00DBA2;
-  --iwd-dark-green: #0F7C67;
-  --iwd-darkest-green: #1A3E38;
 }
 
 /* ================== Basic Reset and Typography ================== */
@@ -71,7 +72,7 @@ ul {
   padding: 0.625em;
   top: 0;
   width: auto;
-  background: var(--wtm-blue);
+  background: var(--bg-blue-light);
   color: var(--text-dark);
   z-index: 1000;
 }
@@ -160,22 +161,22 @@ header {
 
 /* In your main CSS file */
 .nav-links a[href="/jobs/"] {
-  background-color: var(--wtm-blue);
-  color: black;
+  background-color: var(--bg-blue-dark);
+  color: var(--white);
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
 }
 
 .nav-links a[href="/jobs/"]:hover {
-  background-color: var(--wtm-blue);
+  background-color: var(--bg-blue);
   /* A slightly darker shade on hover */
 }
 
 /* ================== Hero Section ================== */
 .hero {
   align-items: center;
-  background-color: var(--iwd-light-blue);
+  background-color: var(--bg-blue-lighter);
   display: flex;
   min-height: 50vh;
   padding: 3.333em 0;
@@ -278,30 +279,23 @@ header {
   padding: 0.625em;
 }
 
-.card p {
-  /* Inherit .section-text styles */
-}
 
 /* ================== Values Section ================== */
 .values {
-  background: var(--secondary-color);
+  background: var(--bg-green-lighter);
   text-align: center;
   padding: 3.333em 0;
 }
 
 .values h2 {
-  color: var(--white);
+  color: var(--black);
   font-size: 2em;
   margin-bottom: 1.111em;
 }
 
-.values .cards {
-  /* Reuse shared .cards grid */
-}
-
 .values .card {
   background: inherit;
-  border: 0.125em solid #ddd;
+  border: 0.125em solid var(--bg-green-dark);
   border-radius: 1.875em;
   overflow: hidden;
   padding: 1.25em;
@@ -309,15 +303,19 @@ header {
 
 .values .card h3 {
   background: inherit;
-  color: var(--white);
+  color: var(--black);
   font-size: 1.25em;
   margin: 0;
   padding: 0.625em;
 }
 
 .values .card p {
-  color: var(--white);
+  color: var(--black);
   /* Inherit .section-text styles */
+}
+
+.values .icon {
+  font-size: 3em;
 }
 
 /* ================== Partners Section ================== */
@@ -365,10 +363,10 @@ header {
 
 /* ================== Button ================== */
 .btn {
-  background: var(--tertiary-color);
-  border: 0.188em solid var(--tertiary-color);
+  background: var(--bg-blue-dark);
+  border: 0.188em solid var(--bg-blue-dark);
   border-radius: 5.625em;
-  color: var(--primary-color);
+  color: var(--white);
   display: inline-block;
   font-weight: bold;
   padding: 0.625em 1.25em;
@@ -385,15 +383,15 @@ header {
 }
 
 .btn-red {
-  background: var(--iwd-green);
-  border: 0.188em solid var(--iwd-green);
+  background: var(--bg-green);
+  border: 0.188em solid var(--bg-green);
   color: var(--white);
 }
 
 .btn-red__outline {
   background: var(--white);
-  border: 0.188em solid var(--secondary-color);
-  color: var(--secondary-color);
+  border: 0.188em solid var(--clr-green);
+  color: var(--clr-green);
 }
 
 /* ================== Page Sections (IWD, WTM, SWIT, TEAM) ================== */
@@ -526,19 +524,14 @@ header {
   border: calc(2 * var(--s)) solid transparent;
   padding: calc(3 * var(--s) / 2);
   box-sizing: border-box;
-  background: var(--tertiary-color);
-  mask:
-    conic-gradient(#000 0 0) no-repeat 50% / calc(100% - 6 * var(--s)) calc(100% - 6 * var(--s)),
-    radial-gradient(var(--s), #000 100%, transparent calc(100% + 1px)) 0 0 / calc(4 * var(--s)) calc(4 * var(--s)),
-    radial-gradient(var(--s), transparent calc(100% - 1px), #000) var(--s) var(--s) / calc(2 * var(--s)) calc(2 * var(--s)) padding-box;
 }
 
 .team .member {
-  background: var(--iwd-light-blue);
   color: var(--black);
 }
 
 .speaker img, .member img {
+  background: var(--bg-green-light);
   border-radius: 50%;
 }
 
@@ -589,13 +582,13 @@ header {
 }
 
 .cod a {
-  color: var(--primary-color);
+  color: var(--clr-blue);
   text-decoration: underline;
 }
 
 /* ================== Footer ================== */
 footer {
-  background: var(--primary-color);
+  background: var(--clr-blue-dark);
 }
 
 .footer-top {
@@ -640,7 +633,7 @@ footer {
 }
 
 .footer-bottom .icon {
-  color: var(--secondary-color);
+  color: var(--clr-blue-light);
 }
 
 .footer-bottom a {
@@ -778,7 +771,7 @@ footer {
 
 .apply-button {
   display: block;
-  background-color: var(--wtm-green);
+  background-color: var(--bg-green);
   color: black;
   padding: 12px 20px;
   text-decoration: none;
@@ -789,12 +782,10 @@ footer {
 }
 
 .apply-button:hover {
-  background-color: var(--wtm-green-dark);
+  background-color: var(--bg-green);
 }
 
 /* SDG */
-
-
 
 .sdg-section {
   padding: 2rem;

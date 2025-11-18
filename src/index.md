@@ -33,13 +33,7 @@ title: Women Techmakers Vienna
   <div class="container">
     <h2>About Women Techmakers Vienna</h2>
       <p>
-        Based in the heart of Vienna, Women Techmakers Vienna is a vibrant community dedicated to empowering women and people with disabilities in tech. We celebrate the innovative work and unique contributions of underrepresented voices in the technology field while fostering an inclusive environment where every individual can thrive. Join us as we share inspiring stories, host engaging events, and advocate for equality, diversity, and innovation in tech.
-
-        People of all genders and abilities are welcome to attend our event.
-        We try to focus on the accomplishments of technologists that also happen to be women or a person with a disability, rather than just focusing on the story of doing something as a woman or a person with a disability. This helps the focus be more of the work rather than our gender or abilities.
-
-        We aim to keep things positive when selecting panels, talks, keynotes, etc. We know that we need more women and people with disabilities in tech and inclusive workplaces and there are issues we face in the industry, but one of the most powerful things we can do to counter act that is to show that women and people with disabilities doing great things and what we are achieving.
-
+        Women Techmakers Vienna is a vibrant community empowering <b>women and people with disabilities in tech</b> in the heart of Vienna. We foster an inclusive environment where every individual can thrive. Join us for inspiring stories, engaging events, and to celebrate the innovative accomplishments and unique contributions of underrepresented voices in technology.
   </div>
   <div class="cards">
     <div class="card">
@@ -53,7 +47,7 @@ title: Women Techmakers Vienna
       <p>How can we close the gender gap in science, tech, engineering &amp; mathematics? In-person meetups with experts and leaders.</p>
     </div>
     <div class="card">
-      <h3>Hackathon</h3>
+      <h3>Workshops</h3>
       <img src="./assets/images/homepage/hackathon.png" width="250" height="170" alt="" />
       <p>High-tech workshops, hands-on experience, hacking and debugging. Delivered by top women in tech!</p>
     </div>
@@ -65,32 +59,25 @@ title: Women Techmakers Vienna
   <div class="container">
     <h2>What we stand for</h2>
     <div class="cards">
-      <div class="card">
-      <img src="./assets/images/homepage/mission.png" width="100" height="100" alt="" />
+      <div class="card">  
+        <div class="icon">🎯</div>
         <h3>Mission</h3>
         <p>
-          Our mission is to empower women and people with disabilities in Vienna’s tech community by creating opportunities for learning, innovation, and growth. We host engaging events and workshops that foster mentorship and skill development, ensuring every individual can access the resources they need.
-
-           Through advocacy and collaboration, we strive to break down barriers and inspire meaningful change in the STEM landscape.
+          To empower women and people with disabilities in Vienna's tech community through learning, innovation, and growth. We host engaging events, foster mentorship, and advocate for change to break down barriers in the STEM landscape.
         </p>
       </div>
       <div class="card">
-      <img src="./assets/images/homepage/value.png" width="100" height="100" alt="" />
+        <div class="icon">🙆</div>
         <h3>Values</h3>
         <p>
-          We believe in the power of inclusivity, respect, and collaboration as the cornerstones of progress in technology. Our values are reflected in our commitment to transparency, continuous learning, and mutual support, ensuring every voice is celebrated.
-
-          By embracing diversity and fostering a culture of innovation, we create a community where everyone can thrive and contribute to a brighter future.
+          We believe in inclusivity, respect, and collaboration as the cornerstones of progress. Our commitment to transparency, continuous learning, and mutual support ensures every voice is celebrated, fostering a culture of innovation where everyone can thrive.
         </p>
       </div>
       <div class="card">
-    <img src="./assets/images/homepage/vision.png" width="100" height="100" alt="" />
+        <div class="icon">✨</div>
         <h3>Vision</h3>
         <p>
-          Our vision is to transform Vienna into a leading center for inclusive innovation in the tech industry. We envision a future where gender, ability, and background are celebrated as strengths, and where opportunities in STEM are accessible to all.
-
-          Through strategic partnerships and creative problem-solving, we aspire to inspire global change and redefine success in technology.
-
+          To transform Vienna into a leading center for inclusive tech innovation. We envision a future where gender, ability, and background are celebrated as strengths, and opportunities in STEM are accessible to all, inspiring global change in the technology industry.
   </div>
 </section>
 
