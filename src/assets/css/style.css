@@ -834,7 +834,7 @@ footer {
 /* Make it responsive: one column on mobile */
 @media (max-width: 768px) {
   .hero .split-content {
-    grid-template-columns: 1fr;
+    flex-direction: column;
     /* Stack the sections vertically */
   }
 }
