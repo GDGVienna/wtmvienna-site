@@ -4,31 +4,36 @@ title: Women Techmakers Vienna
 ---
 
 <!-- Hero Section -->
-<section class="hero hero-after">
+<section class="hero">
   <div class="container">
     <h1>Welcome to Women Techmakers Vienna</h1>
-    <div class="callouts">
-      <div class="callout">
-        <p>
-          🎉 Next WTM Meetup will be in <b>January 2026</b> at enspired.
-        </p>
-        <!-- <a href="https://www.meetup.com/women-techmakers-vienna/events/310438552/" class="btn">
-          Register on Meetup
-        </a> -->
+    <div class="split-content">
+      <div class="meetup-section">
+        <h2>🗓️ Next Meetup</h2>
+        <div class="callout meetup-card">
+          <p>
+            🎉 Next WTM Meetup will be on <b>January 28th, 2026</b> at enspired.
+          </p>
+        </div>
+        <a href="https://www.meetup.com/women-techmakers-vienna/" class="btn btn-event">
+            Register for the MeetUp
+        </a>
       </div>
-      <div class="callout">
-        <p>
-          💡 Become a sponsor for our <b>WTM Conference in March 2026</b>.
-        </p>
-        <a href="/become-a-sponsor" class="btn">
-          View Sponsorship Options
+      <div class="main-event-section">
+        <h2>✨ WTM Conference</h2>
+        <div class="callout event-card">
+          <p>
+            Our WTM Conference for the International Women's Day will be on <b>March 14th 2026</b> at TUtheSky.
+          </p>
+        </div>
+        <a href="/become-a-sponsor" class="btn btn-event">
+          Become a Sponsor
         </a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- About Section -->
 <section class="about">
   <div class="container">
     <h2>About Women Techmakers Vienna</h2>
@@ -60,38 +65,52 @@ title: Women Techmakers Vienna
     <h2>What we stand for</h2>
     <div class="cards">
       <div class="card">  
-        <div class="icon">🎯</div>
-        <h3>Mission</h3>
+        <h3>🎯 Mission</h3>
         <p>
           To empower women and people with disabilities in Vienna's tech community through learning, innovation, and growth. We host engaging events, foster mentorship, and advocate for change to break down barriers in the STEM landscape.
         </p>
       </div>
       <div class="card">
-        <div class="icon">🙆</div>
-        <h3>Values</h3>
+        <h3>🙆 Values</h3>
         <p>
           We believe in inclusivity, respect, and collaboration as the cornerstones of progress. Our commitment to transparency, continuous learning, and mutual support ensures every voice is celebrated, fostering a culture of innovation where everyone can thrive.
         </p>
       </div>
       <div class="card">
-        <div class="icon">✨</div>
-        <h3>Vision</h3>
+        <h3>✨ Vision</h3>
         <p>
           To transform Vienna into a leading center for inclusive tech innovation. We envision a future where gender, ability, and background are celebrated as strengths, and opportunities in STEM are accessible to all, inspiring global change in the technology industry.
+        </p>
   </div>
 </section>
 
 <!-- Partners/Sponsors Section -->
 <section class="partners">
   <div class="container">
-  <h2>Organizers</h2>
+  <h2>Sponsors & Partners</h2>
   <p>
     We extend our heartfelt thanks to our dedicated organizers and supportive partners for making our events a success and empowering women and people with disabilities in tech.
   </p>
+
+  <h3>Platinum Sponsors</h3>
   <div class="partner-items">
     <div class="partner-item">
+      <img src="/assets/images/sponsors/enspired.png" alt="enspired" width="350" height="350" />
+    </div>
+    <div class="partner-item">
+      <img src="/assets/images/sponsors/tuwien.png" alt="TU Wien" width="350" height="350" />
+    </div>
+  </div>
+    <h3>Partners & Organizers</h3>
+    <div class="partner-items">
+    <div class="partner-item">
+      <a href="https://www.enspired-trading.com/">
+        <img src="/assets/images/sponsors/enspired.png" alt="enspired" width="150" height="150">
+      </a>
+    </div>
+    <div class="partner-item">
       <a href="https://developers.google.com/womentechmakers">
-        <img src="/assets/images/WTM-logos/logo.png" alt="Women Techmakers" width="350" height="350">
+        <img src="/assets/images/WTM-logos/logo-full.png" alt="Women Techmakers" width="350" height="350">
       </a>
     </div>
     <div class="partner-item">
@@ -99,51 +118,9 @@ title: Women Techmakers Vienna
         <img src="/assets/images/sponsors/gdg-vienna.png" alt="GDG Vienna" width="250" height="250">
       </a>
     </div>
-    <div class="partner-item">
-      <a href="https://www.accessibilityfirst.at/">
-        <img src="/assets/images/sponsors/a11y1st-logo.png" alt="Accessibility First" width="250" height="250">
-      </a>
-    </div>
   </div>
-
-  <h2>Partners</h2>
-  <div class="partner-items">
-    <div class="partner-item">
-      <a href="https://www.enspired-trading.com/">
-        <img src="/assets/images/sponsors/enspired.png" alt="enspired" width="350" height="350">
-      </a>
-    </div>
-  </div>
-  <a href="/become-a-partner/" class="btn">Become a partner</a>
-  <!-- <h3>Platinum Partners</h3>
-  <div class="partner-items">
-    <div class="partner-item">
-      <img src="/assets/images/partner3.png" alt="Platinum Partner 1">
-    </div>
-    <div class="partner-item">
-      <img src="/assets/images/partner4.png" alt="Platinum Partner 2">
-    </div>
-  </div>
-  <h3>Gold Partners</h3>
-  <div class="partner-items">
-    <div class="partner-item">
-      <img src="/assets/images/partner3.png" alt="Gold Partner 1">
-    </div>
-    <div class="partner-item">
-      <img src="/assets/images/partner4.png" alt="Gold Partner 2">
-    </div>
-  </div>
-  <h3>General Partners</h3>
-  <div class="partner-items">
-    <div class="partner-item">
-      <img src="/assets/images/partner3.png" alt="General Partner 1">
-    </div>
-    <div class="partner-item">
-      <img src="/assets/images/partner4.png" alt="General Partner 2">
-    </div>
-  </div> -->
+  <a href="/become-a-sponsor/" class="btn">Become a Sponsor</a>
 </div>
-
 </section>
 
 <section class="sdg-section">

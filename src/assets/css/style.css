@@ -176,7 +176,6 @@ header {
 /* ================== Hero Section ================== */
 .hero {
   align-items: center;
-  background-color: var(--bg-blue-lighter);
   display: flex;
   min-height: 50vh;
   padding: 3.333em 0;
@@ -185,14 +184,6 @@ header {
 
 .hero .container {
   margin: auto;
-}
-
-.hero h1, .hero .callout p {
-  margin-bottom: 0.7em;
-}
-
-.hero .container p {
-  font-size: 1.5em;
 }
 
 .hero .callout {
@@ -282,7 +273,7 @@ header {
 
 /* ================== Values Section ================== */
 .values {
-  background: var(--bg-green-lighter);
+  background: var(--bg-blue-lighter);
   text-align: center;
   padding: 3.333em 0;
 }
@@ -295,7 +286,7 @@ header {
 
 .values .card {
   background: inherit;
-  border: 0.125em solid var(--bg-green-dark);
+  border: 0.125em solid var(--bg-blue-dark);
   border-radius: 1.875em;
   overflow: hidden;
   padding: 1.25em;
@@ -343,7 +334,7 @@ header {
 .partner-items {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.25em;
+  gap: 2em;
   justify-content: center;
   margin-bottom: 2.5em;
 }
@@ -829,4 +820,90 @@ footer {
   font-size: 0.8rem;
   color: var(--text-dark);
   margin-top: 2rem;
+}
+
+/* --- HERO SECTION STYLES --- */
+
+/* Parent container for the split layout */
+.hero .split-content {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Make it responsive: one column on mobile */
+@media (max-width: 768px) {
+  .hero .split-content {
+    grid-template-columns: 1fr;
+    /* Stack the sections vertically */
+  }
+}
+
+/* Style for the individual section wrappers */
+.meetup-section,
+.main-event-section {
+  padding: 1.5rem;
+  border-radius: 8px;
+  /* Use a subtle background to distinguish the sections */
+  background-color: var(--clr-blue-v-light, #f0f8ff);
+  /* Using the very light blue */
+}
+
+/* Section Headings */
+.hero h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--clr-blue-dark, #004480);
+}
+
+/* General Callout Box Style */
+.callout {
+  padding: 1.5rem;
+  border-radius: 6px;
+  /* Ensure a visual separation from the parent section background */
+  background-color: #fff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.callout p {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+
+/* Call to Action Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-meetup {
+  background-color: var(--clr-green, #00C0A6);
+  color: #fff;
+}
+
+.btn-meetup:hover {
+  background-color: var(--clr-green-dark, #00806E);
+}
+
+.btn-event {
+  background-color: var(--bg-green);
+  border-color: var(--bg-green);
+  color: #000;
+}
+
+.btn-event:hover {
+  background-color: var(--bg-green-light);
+}
+
+/* Small note about update frequency */
+.update-note {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.5rem;
 }

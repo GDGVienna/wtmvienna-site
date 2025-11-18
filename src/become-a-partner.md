@@ -22,6 +22,6 @@ title: Become a Partner | Women Techmakers Vienna
     <p>
       By becoming a partner, you’re not just supporting one event — you’re helping to keep our community alive and thriving all year long. Together, we can create lasting opportunities for inclusion, growth, and innovation in tech.
     </p>
-    <a class="btn">View Sponsorship Proposal - Currently not available!</a>
+    <a class="btn">View Partnership Proposal - Currently not available!</a>
   </div>
 </section>

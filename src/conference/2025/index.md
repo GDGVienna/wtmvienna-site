@@ -2,7 +2,7 @@
 layout: iwd-event.njk
 title: International Women's Day 2025
 topic: Redefine Possible
-permalink: "/iwd/2025/"
+permalink: "/conference/2025/"
 year: 2025
 banner: "assets/images/banners/IWDSpeakers.png"
 information: "In February 2025, 5 years after a break and split up due Covid, Julia started to bring Women Techmakers Vienna back to life. Within a very short time, she created a whole new website calling it Women Techmakers Vienna 2.0, not only focuses on Women but also on People with Disabilities (PwD), organized and hosted a 2 hour online event for the International Women’s

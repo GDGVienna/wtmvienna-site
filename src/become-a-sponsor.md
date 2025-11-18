@@ -26,7 +26,7 @@ title: Become a Sponsor | Women Techmakers Vienna
     <p>
       <b>Interested in sponsoring with us?</b> Let’s work together to make diversity not just celebrated — but the standard.
     </p>
-    <a href="https://drive.google.com/file/d/1sFV26dzDT2iAcv8Gmf0wWCzoTcT0seNj/view" class="btn">View Sponsorship Proposal</a>
+    <a href="https://drive.google.com/file/d/1PSXXoCbTGG8f90XBSOD4fp2cQTbGJcu7/view" class="btn">View Sponsorship Proposal</a>
 
   </div>
 </section>
