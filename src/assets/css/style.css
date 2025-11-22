@@ -907,3 +907,147 @@ footer {
   color: #666;
   margin-top: 0.5rem;
 }
+
+/* --- SECTION STYLES --- */
+.past-meetups-section {
+  padding: 3rem 0;
+}
+
+.past-meetups-section h2 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.section-description {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+  color: var(--text-dark);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --- GRID LAYOUT --- */
+.events-grid {
+  display: grid;
+  /* Two columns on desktop, responsive for tablets/laptops */
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
+}
+
+/* --- EVENT CARD STYLING --- */
+.event-card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  /* Contains the image border-radius */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  /* Subtle lift on hover */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+  position: relative;
+  overflow: hidden;
+  /* Aspect ratio for image consistency */
+  padding-top: 56.25%;
+  /* 16:9 aspect ratio */
+}
+
+.card-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1.5rem;
+  flex-grow: 1;
+  /* Ensures content area takes up remaining space */
+}
+
+.event-date {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--clr-green-dark);
+  margin-bottom: 0.25rem;
+}
+
+.event-card h3 {
+  font-size: 1.5rem;
+  color: var(--clr-blue);
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* SCHEDULE DETAILS */
+.event-details {
+  margin-bottom: 1.5rem;
+}
+
+.event-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.event-details li {
+  line-height: 1.4;
+  margin-bottom: 0.25rem;
+}
+
+
+/* --- BUTTONS --- */
+.card-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: auto;
+  /* Pushes the button group to the bottom */
+}
+
+.btn {
+  flex: 1;
+  text-align: center;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  font-size: 0.95rem;
+  border: 2px solid transparent;
+}
+
+.btn-primary {
+  /* For the most important action: Livestream */
+  background-color: var(--clr-blue);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: var(--clr-blue-dark);
+}
+
+.btn-secondary {
+  /* For the secondary action: Photos */
+  background-color: #fff;
+  border-color: var(--clr-green-dark);
+  color: var(--clr-green-dark);
+}
+
+.btn-secondary:hover {
+  background-color: var(--bg-green-dark);
+  color: white;
+}
