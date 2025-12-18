@@ -15,7 +15,7 @@ title: Women Techmakers Vienna
             🎉 Next WTM Meetup will be on <b>January 28th, 2026</b> at enspired.
           </p>
         </div>
-        <a href="https://www.meetup.com/women-techmakers-vienna/" class="btn btn-event">
+        <a href="https://forms.gle/1fEpHUvXY4BfCjvE7" class="btn btn-event">
             Register for the MeetUp
         </a>
       </div>
