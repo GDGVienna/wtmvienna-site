@@ -1,23 +1,16 @@
 [
   {
+    "title": "Volunteer (Organizer, Social Media, Website, etc.)",
+    "company": "Women Techmakers Vienna",
+    "logo_url": "/assets/images/WTM-logos/logo-full.png",
+    "location": "Vienna, Austria",
+    "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfQ1AzdEWlRdcciKkB3PyBX6-7ggzT3n59N8kjyeOR-8u293Q/viewform"
+  },
+  {
     "title": "Senior Software Development Expert",
     "company": "enspired",
     "logo_url": "/assets/images/sponsors/enspired.png",
     "location": "Vienna, Austria",
     "apply_url": "https://enspired.recruitee.com/o/senior-software-development-expert-fmx-3?source=WTM"
-  },
-  {
-    "title": "Senior Algorithm Development Expert",
-    "company": "enspired",
-    "logo_url": "/assets/images/sponsors/enspired.png",
-    "location": "Vienna, Austria",
-    "apply_url": "https://enspired.recruitee.com/o/senior-algorithm-development-expert-fmx?source=WTM"
-  },
-  {
-    "title": "Senior Cloud Operations Expert",
-    "company": "enspired",
-    "logo_url": "/assets/images/sponsors/enspired.png",
-    "location": "Vienna, Austria",
-    "apply_url": "https://enspired.recruitee.com/o/senior-cloud-operations-expert-mfx?source=WTM"
   }
 ]

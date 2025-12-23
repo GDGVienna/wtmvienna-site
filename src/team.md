@@ -8,16 +8,20 @@ title: Team | Women Techmakers Vienna
     <h1>Team</h1>
     <p>What would Women Techmakers Vienna be without the amazing team behind it.
     </p>
+    <p>
+      <b>Interested in being part of the team?</b> Apply for a position by filling out the form below.
+    </p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfQ1AzdEWlRdcciKkB3PyBX6-7ggzT3n59N8kjyeOR-8u293Q/viewform" class="btn">Apply for a position</a>
     <div class="members">
       <div class="member">
         <img src="/assets/images/team/julia.jpg" alt="" class="presenter-img" width="150" height="150">
         <h2>Julia Undeutsch</h2>
-        <p>Organizer, Google Developer Expert</p>
+        <p>Organizer, Website, Finances</p>
       </div>
       <div class="member">
         <img src="/assets/images/team/viorica.jpg" alt="" class="presenter-img" width="150" height="150">
         <h2>Viorica Sîrghii</h2>
-        <p>Women Techmakers Ambassador</p>
+        <p>Organizer,Women Techmakers Ambassador</p>
       </div>
       <div class="member">
         <img src="/assets/images/team/laura.jpg" alt="" class="presenter-img" width="150" height="150">
@@ -27,7 +31,22 @@ title: Team | Women Techmakers Vienna
       <div class="member">
         <img src="/assets/images/team/sharen.jpg" alt="" class="presenter-img" width="150" height="150">
         <h2>Sharen León Escobar</h2>
-        <p>Organizer</p>
+        <p>Organizer, Social Media</p>
+      </div>
+      <div class="member">
+        <img src="/assets/images/team/placeholder.png" alt="" class="presenter-img" width="150" height="150">
+        <h2>You?</h2>
+        <p>Social Media</p>
+      </div>
+      <div class="member">
+        <img src="/assets/images/team/placeholder.png" alt="" class="presenter-img" width="150" height="150">
+        <h2>You?</h2>
+        <p>Social Media</p>
+      </div>
+        <div class="member">
+        <img src="/assets/images/team/placeholder.png" alt="" class="presenter-img" width="150" height="150">
+        <h2>You?</h2>
+        <p>Website</p>
       </div>
       <div class="member">
         <img src="/assets/images/team/helmuth.jpg" alt="" class="presenter-img" width="150" height="150">
