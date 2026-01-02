@@ -16,6 +16,9 @@ Women Techmakers Vienna is a non-profit organization and the work done is solely
     <a href="https://drive.google.com/file/d/1PSXXoCbTGG8f90XBSOD4fp2cQTbGJcu7/view" class="btn">View Sponsorship Proposal</a>
     <br>
     <br>
+    <a href="/conference/2026/" class="btn btn-red">Upcoming: WTM Conference 2026</a>
+    <br>
+    <br>
     <a href="/conference/2025/">This was WTM Conference 2025</a>
   </div>
 </section>

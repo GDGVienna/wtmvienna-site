@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css?v=8">
+  <link rel="icon" type="image/x-icon" href="/assets/images/icon/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,75..125,200..1000;1,6..12,75..125,200..1000&display=swap" rel="stylesheet">
+</head>
+<body class="landing-body">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  {% include "header.njk" %}
+
+  <main id="main-content">
+    <section class="landing-hero">
+      <div class="landing-container">
+        <h1>{{ title }}</h1>
+        <div class="event-meta">
+          <span>📅 {{ event_date }}</span>
+          <span>📍 {{ location }}</span>
+          <span>⏰ {{ time }}</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="landing-section landing-schedule">
+      <div class="landing-container">
+        <h2>Schedule</h2>
+        {% if schedule %}
+          <table class="landing-schedule-table">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Topic</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for item in schedule %}
+                <tr>
+                  <td class="schedule-time">{{ item.time }}</td>
+                  <td>
+                    <div class="schedule-title">{{ item.title }}</div>
+                    {% if item.speaker %}
+                       <small>by {{ item.speaker }}</small>
+                    {% endif %}
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        {% else %}
+          <p>Schedule coming soon.</p>
+        {% endif %}
+      </div>
+    </section>
+
+    <section class="landing-section landing-speakers">
+      <div class="landing-container">
+        <h2>Speakers</h2>
+        <p>Speaker applications are now open! <a href="#" target="_blank">Submit your proposal here</a>.</p>
+      </div>
+    </section>
+
+    <section class="landing-section landing-location-contact">
+      <div class="landing-container">
+        <h2>Location & Contact</h2>
+        <div class="contact-info">
+          <p><strong>Venue:</strong> {{ location }}</p>
+          <p>Questions? Contact us at <a href="mailto:team@womentechmakers.at">team@womentechmakers.at</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  {% include "footer.njk" %}
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
