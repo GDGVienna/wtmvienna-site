@@ -19,17 +19,18 @@ title: Women Techmakers Vienna
             Register for the MeetUp
         </a>
       </div>
-      <div class="main-event-section">
+      <div class="main-event-section prominent-card">
         <h2>✨ WTM Conference</h2>
         <div class="callout event-card">
           <p>
             Our WTM Conference for the International Women's Day will be on <b>March 14th 2026</b> at TUtheSky.
           </p>
         </div>
+        <a href="/become-a-sponsor" class="hero-sponsor-link">
           Become a Sponsor
         </a>
         <br><br>
-        <a href="https://speaker.at/women-techmakers-2026/cfp" class="btn btn-event">
+        <a href="https://speaker.at/women-techmakers-2026/cfp" class="btn btn-event btn-pulse">
           Submit your proposal
         </a>
       </div>
