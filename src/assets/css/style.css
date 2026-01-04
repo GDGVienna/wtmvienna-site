@@ -671,7 +671,7 @@ footer {
   text-align: center;
   padding: 6rem 0;
   /* Subtle "Break the Pattern" Effect */
-  background-color: var(--clr-blue-dark);
+  background-color: #0434AB;
   background-image:
     linear-gradient(135deg, rgba(0, 192, 166, 0.1) 0%, transparent 40%),
     linear-gradient(225deg, rgba(0, 119, 208, 0.15) 0%, transparent 40%),
