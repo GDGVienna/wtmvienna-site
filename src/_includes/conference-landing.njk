@@ -17,18 +17,61 @@
   <main id="main-content">
     <section class="landing-hero">
       <div class="landing-container">
-        <h1>{{ title }}</h1>
+        <h1>Women Techmakers<br>Conference</h1>
         <div class="event-meta">
-          <span>📅 {{ event_date }}</span>
-          <span>📍 {{ location }}</span>
-          <span>⏰ {{ time }}</span>
+          <span>{{ event_date }}</span>
+          <span>@ {{ location }}</span>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#" class="btn hero-btn hero-btn-primary">Registration is opening soon</a>
+          <a href="https://speaker.at/women-techmakers-2026/cfp" target="_blank" class="btn hero-btn hero-btn-secondary">Call for Speakers</a>
+          <a href="/become-a-sponsor/" class="btn hero-btn hero-btn-outline">Become a Sponsor</a>
+        </div>
+        
+        <div class="countdown-title">Conference will start in</div>
+        <div class="countdown-container" id="countdown">
+            <div class="countdown-item">
+                <span class="countdown-number" id="days">00</span>
+                <span class="countdown-label">Days</span>
+            </div>
+            <div class="countdown-item">
+                <span class="countdown-number" id="hours">00</span>
+                <span class="countdown-label">Hours</span>
+            </div>
+             <div class="countdown-item">
+                <span class="countdown-number" id="minutes">00</span>
+                <span class="countdown-label">Minutes</span>
+            </div>
+            <div class="countdown-item">
+                <span class="countdown-number" id="seconds">00</span>
+                <span class="countdown-label">Seconds</span>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="landing-section landing-topics">
+      <div class="landing-container">
+              <!-- Break the Pattern Banner Image -->
+     
+        <h2>This years topic</h2>
+        <div class="topics-grid">
+            <div class="">
+                 <div class="landing-banner">
+        <img src="/assets/images/banners/breakthepattern.jpg" alt="Theme Break the Pattern" class="banner-img">
+      </div>
+            </div>
+            <div class="">
+                <p>Women Techmakers Vienna invites you to our International Women’s Day 2026 conference, themed “Break The Pattern.” Expect stories of non-traditional paths into tech and the moments women stepped up beyond their role to drive real change at work—improving processes, quality, leadership, and team culture. Come for practical takeaways, honest lessons, and new connections.</p>
+            </div>
         </div>
       </div>
     </section>
 
     <section class="landing-section landing-schedule">
       <div class="landing-container">
-        <h2>Schedule</h2>
+        <h2>Agenda</h2>
         {% if schedule %}
           <table class="landing-schedule-table">
             <thead>
@@ -70,8 +113,12 @@
       <div class="landing-container">
         <h2>Location & Contact</h2>
         <div class="contact-info">
-          <p><strong>Venue:</strong> {{ location }}</p>
-          <p>Questions? Contact us at <a href="mailto:team@womentechmakers.at">team@womentechmakers.at</a></p>
+          <h3>Venue</h3>
+          <p>{{ location }}</p>
+          <p>Getreidemarkt 9, 1060 Wien</p>
+          <p>Room BA11B09</p>
+          <h3>Questions</h3>
+          <p>Contact us at <a href="mailto:team@womentechmakers.at">team@womentechmakers.at</a></p>
         </div>
       </div>
     </section>

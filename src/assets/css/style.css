@@ -635,7 +635,7 @@ footer {
 }
 
 /* ================== Responsive Styles ================== */
-/* ================== Conference 2026 (Standalone Landing) ================== */
+/* ================== Conference 2026 (Break the Pattern) ================== */
 
 .landing-body {
   background-color: #fafafa;
@@ -645,79 +645,261 @@ footer {
 }
 
 .landing-container {
-  text-align: center;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
-.landing-container p {
-  text-align: center;
-}
-
 /* --- Header / Logo --- */
 .landing-header {
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   text-align: center;
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .landing-logo {
-  max-width: 250px;
+  max-width: 200px;
   height: auto;
 }
 
-/* --- Hero Section --- */
+/* --- Hero Section (Break the Pattern) --- */
 .landing-hero {
   text-align: center;
-  padding: 5rem 0;
-  background: linear-gradient(135deg, var(--bg-blue-lighter) 0%, #fff 100%);
+  padding: 6rem 0;
+  /* Dark Blue Background with geometric pattern */
+  background-color: var(--clr-blue-dark);
+  background-image:
+    radial-gradient(var(--clr-blue) 1.5px, transparent 1.5px),
+    radial-gradient(var(--clr-blue) 1.5px, transparent 1.5px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  color: white;
+  position: relative;
+}
+
+/* Remove overlay since we use solid color/pattern now */
+.landing-hero::before {
+  display: none;
+}
+
+.landing-hero .landing-container {
+  position: relative;
+  z-index: 2;
+}
+
+/* --- Banner Section --- */
+.landing-banner {
+  width: 100%;
+  overflow: hidden;
+  background: var(--clr-blue-dark);
+  /* match hero bg to avoid gaps */
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 600px;
+  /* Limit height on large screens */
+  object-fit: cover;
 }
 
 .landing-hero h1 {
-  font-size: 3.5rem;
-  color: var(--clr-blue-dark);
+  font-size: 4rem;
   margin-bottom: 0.5rem;
   font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 .landing-hero .event-meta {
-  font-size: 1.5rem;
-  color: var(--clr-green-dark);
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 700;
   margin-top: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .landing-hero .event-meta span {
   display: inline-block;
-  margin: 0 0.5rem;
+  margin: 0 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
 }
+
+/* --- Hero Actions (Buttons) --- */
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.hero-btn {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  /* Pill shape */
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.hero-btn-primary {
+  background-color: var(--clr-green);
+  color: #000;
+}
+
+.hero-btn-primary:hover {
+  background-color: var(--clr-green-dark);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 192, 166, 0.4);
+}
+
+.hero-btn-secondary {
+  background-color: #fff;
+  color: var(--clr-blue);
+}
+
+.hero-btn-secondary:hover {
+  background-color: var(--light-color);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.hero-btn-outline {
+  background-color: transparent;
+  border: 2px solid #fff !important;
+  color: #fff;
+}
+
+.hero-btn-outline:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-3px);
+}
+
+/* --- Countdown --- */
+.countdown-container {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  color: #fff;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.countdown-number {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.countdown-label {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.countdown-title {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  opacity: 0.9;
+}
+
 
 /* --- Sections Common --- */
 .landing-section {
-  padding: 4rem 0;
+  padding: 5rem 0;
 }
 
 .landing-section h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
   margin-bottom: 3rem;
   color: var(--text-dark);
-  position: relative;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
-.landing-section h2::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 4px;
-  background: var(--clr-green);
-  margin: 0.5rem auto 0;
-  border-radius: 2px;
+/* --- Topics Section --- */
+.landing-topics {
+  background-color: #f0f0f0;
 }
+
+.topics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .topics-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.topic-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-top: 5px solid var(--clr-blue);
+}
+
+.topic-card:nth-child(2) {
+  border-top: 5px solid var(--clr-green);
+}
+
+.topic-card:hover {
+  transform: translateY(-10px);
+}
+
+.topic-card h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-dark);
+}
+
+.topic-card p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
 
 /* --- Speakers --- */
+
+.landing-speakers .landing-container {
+  text-align: center;
+}
+
 .landing-speakers-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -779,16 +961,16 @@ footer {
 
 .landing-schedule-table th,
 .landing-schedule-table td {
-  padding: 1.25rem;
+  padding: 1.5rem;
   text-align: left;
 }
 
 .landing-schedule-table th {
-  background-color: var(--clr-blue);
+  background-color: var(--text-dark);
   color: white;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 1px;
 }
 
 .landing-schedule-table tr:not(:last-child) td {
@@ -796,33 +978,34 @@ footer {
 }
 
 .landing-schedule-table tr:hover td {
-  background-color: var(--bg-green-lighter);
+  background-color: #f9f9f9;
 }
 
 .schedule-time {
   font-weight: 700;
-  color: var(--clr-blue-dark);
+  color: var(--clr-blue);
   width: 15%;
+  font-size: 1.1rem;
 }
 
 .schedule-title {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
 /* --- Location & Contact --- */
 .landing-location-contact {
-  background-color: var(--bg-blue-lighter);
+  background-color: var(--light-color);
   text-align: center;
 }
 
 .contact-info {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.6;
 }
 
 .contact-info a {
-  color: var(--clr-blue-dark);
+  color: var(--clr-blue);
   font-weight: 700;
 }
 
