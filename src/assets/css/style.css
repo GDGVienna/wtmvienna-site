@@ -940,6 +940,16 @@ footer {
   text-align: left;
 }
 
+.theme-accent-text {
+  font-family: "Courier New", Courier, monospace;
+  /* Distinct "code/tech" font to break the pattern */
+  font-weight: 700;
+  color: var(--clr-blue);
+  background: rgba(0, 119, 208, 0.1);
+  padding: 0 0.4rem;
+  border-radius: 4px;
+}
+
 .landing-speaker-img {
   width: 120px;
   height: 120px;
