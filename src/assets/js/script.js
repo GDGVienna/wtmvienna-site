@@ -3,11 +3,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const menuToggle = document.querySelector('.menu-toggle');
   const navLinks = document.querySelector('.nav-links');
 
-  menuToggle.addEventListener('click', function () {
-    navLinks.classList.toggle('active');
-    const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
-    menuToggle.setAttribute('aria-expanded', !expanded);
-  });
+  if (menuToggle) {
+    menuToggle.addEventListener('click', function () {
+      navLinks.classList.toggle('active');
+      const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+      menuToggle.setAttribute('aria-expanded', !expanded);
+    });
+  }
 
   // Countdown Logic for WTM Conference 2026
   const countdownElement = document.getElementById('countdown');
