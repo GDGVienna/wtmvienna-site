@@ -25,6 +25,7 @@ title: Women Techmakers Vienna
           <p>
             Our WTM Conference for the International Women's Day will be on <b>March 14th 2026</b> at TUtheSky.
           </p>
+          <a href="/conference/2026">Conference 2026</a>
         </div>
         <a href="/become-a-sponsor" class="hero-sponsor-link">
           Become a Sponsor
