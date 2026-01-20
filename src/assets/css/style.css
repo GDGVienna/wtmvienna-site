@@ -797,6 +797,7 @@ footer {
   justify-content: center;
   gap: 2rem;
   color: #fff;
+  flex-wrap: wrap;
 }
 
 .countdown-item {
@@ -1083,7 +1084,8 @@ footer {
 @media (max-width: 30em) {
 
   /* 480px */
-  .hero h1 {
+  .hero h1,
+  .landing-hero h1 {
     font-size: 2em;
   }
 
@@ -1093,6 +1095,10 @@ footer {
 
   .footer-top {
     flex-direction: column;
+  }
+
+  .contact-info {
+    font-size: 1.125em;
   }
 }
 
