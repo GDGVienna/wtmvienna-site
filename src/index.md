@@ -4,67 +4,114 @@ title: Women Techmakers Vienna
 ---
 
 <!-- Hero Section -->
-<section class="hero">
+<section class="hero" style="background: #0434AB; color: var(--white); padding: 4rem 0; text-align: center;">
   <div class="container">
-    <h1>Welcome to Women Techmakers Vienna</h1>
-    <div class="split-content">
-      <div class="meetup-section">
-        <h2>🗓️ Next Meetup</h2>
-        <div class="callout meetup-card">
-          <p>
-            🎉 Next WTM Meetup will be on <b>January 28th, 2026</b> at enspired.
-          </p>
-        </div>
-        <a href="https://forms.gle/1fEpHUvXY4BfCjvE7" class="btn btn-event">
-            Register for the MeetUp
-        </a>
-      </div>
-      <div class="main-event-section prominent-card">
-        <h2>✨ WTM Conference</h2>
-        <div class="callout event-card">
-          <p>
-            Our WTM Conference for the International Women's Day will be on <b>March 14th 2026</b> at TUtheSky.
-          </p>
-          <a href="/conference/2026">Conference 2026</a>
-        </div>
-        <a href="/become-a-sponsor" class="hero-sponsor-link">
-          Become a Sponsor
-        </a>
-        <br><br>
-        <a href="https://speaker.at/women-techmakers-2026/cfp" class="btn btn-event btn-pulse">
-          Submit your proposal
-        </a>
-      </div>
+    <h1 style="color: var(--white); font-size: 3.5rem; margin-bottom: 0.5rem;">Women Techmakers Conference</h1>
+    <h2 style="color: var(--white); font-size: 2rem; margin-bottom: 2rem; font-weight: normal;"><b>March 14th 2026</b> @ TUtheSky</h2>
+    
+    <div class="hero-actions" style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+        <a href="https://147292833.hs-sites-eu1.com/wtmvienna" class="btn btn-event" style="font-size: 1.2rem; padding: 1rem 2rem;">Register Now</a>
+        <a href="/conference/2026" class="btn" style="background: transparent; border: 2px solid var(--white); font-size: 1.2rem; padding: 1rem 2rem;">Conference Details</a>
     </div>
   </div>
 </section>
 
-<section class="about">
-  <div class="container">
-    <h2>About Women Techmakers Vienna</h2>
-      <p>
-        Women Techmakers Vienna is a vibrant community empowering <b>women and people with disabilities in tech</b> in the heart of Vienna. We foster an inclusive environment where every individual can thrive. Join us for inspiring stories, engaging events, and to celebrate the innovative accomplishments and unique contributions of underrepresented voices in technology.
+<!-- Content Layout -->
+<div class="container" style="display: flex; flex-wrap: wrap; gap: 3rem; margin-top: 3rem; margin-bottom: 3rem;">
+  
+  <!-- Main Content -->
+  <div style="flex: 2; min-width: 300px;">
+    <section class="about" style="padding: 0; text-align: left;">
+      <h2 style="text-align: left; margin-bottom: 1rem;">About Women Techmakers Vienna</h2>
+        <p style="margin: 0 0 2rem 0; padding: 0; max-width: 100%;">
+          Women Techmakers Vienna is a vibrant community empowering <b>women and people with disabilities in tech</b> in the heart of Vienna. We foster an inclusive environment where every individual can thrive.
+        </p>
+      
+      <div class="cards" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); padding: 0;">
+        <div class="card" style="border: 1px solid #eaeaea;">
+          <h3>Conference</h3>
+          <img src="./assets/images/homepage/conference.png" width="250" height="170" alt="" />
+          <p>Supporting women and people with disabilities in tech through the power of example.</p>
+        </div>
+        <div class="card" style="border: 1px solid #eaeaea;">
+          <h3>MeetUps</h3>
+          <img src="./assets/images/homepage/discussion.png" width="250" height="170" alt="" />
+          <p>In-person meetups with experts and leaders to close the gender gap.</p>
+        </div>
+        <div class="card" style="border: 1px solid #eaeaea;">
+          <h3>Workshops</h3>
+          <img src="./assets/images/homepage/hackathon.png" width="250" height="170" alt="" />
+          <p>High-tech workshops, hands-on experience, hacking and debugging.</p>
+        </div>
+      </div>
+    </section>
   </div>
-  <div class="cards">
-    <div class="card">
-      <h3>Conference</h3>
-      <img src="./assets/images/homepage/conference.png" width="250" height="170" alt="" />
-      <p>Supporting women and people with disabilities in tech through the power of example.</p>
-    </div>
-    <div class="card">
-      <h3>MeetUps</h3>
-      <img src="./assets/images/homepage/discussion.png" width="250" height="170" alt="" />
-      <p>How can we close the gender gap in science, tech, engineering &amp; mathematics? In-person meetups with experts and leaders.</p>
-    </div>
-    <div class="card">
-      <h3>Workshops</h3>
-      <img src="./assets/images/homepage/hackathon.png" width="250" height="170" alt="" />
-      <p>High-tech workshops, hands-on experience, hacking and debugging. Delivered by top women in tech!</p>
-    </div>
-  </div>
-</section>
 
-<!-- About Section -->
+  <!-- Sidebar -->
+  <aside style="flex: 1; min-width: 280px;">
+    
+    <!-- Next Meetup Widget -->
+    <div class="sidebar-widget" style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; border-left: 4px solid var(--clr-green);">
+      <h3 style="margin-top: 0; color: var(--clr-blue-dark);">🗓️ Next Meetup</h3>
+      <p style="font-size: 1.1rem; margin-bottom: 1rem;">
+        <b>Currently working on it</b><br>
+        at enspired
+      </p>
+      <a href="#" class="btn btn-event" style="width: 100%; text-align: center;">Registration is opening soon</a>
+    </div>
+
+    <!-- Previous Meetups Widget -->
+    <div class="sidebar-widget" style="margin-bottom: 2rem;">
+      <h3 style="border-bottom: 2px solid #eee; padding-bottom: 0.5rem; margin-bottom: 1rem;">Previous Meetups</h3>
+      <p style="font-size: 1.1rem; margin-bottom: 1rem;">
+        <b>January 28th, 2026</b><br>
+        at enspired
+      </p>
+      <ul style="list-style: none; padding: 0;">
+        {% for meetup in pastMeetups %}
+          {% if loop.index <= 3 %}
+          <li style="margin-bottom: 1rem;">
+            <a href="{{ meetup.photo_album_url }}" target="_blank" style="font-weight: bold; color: var(--clr-blue);">{{ meetup.name }}</a>
+            <br>
+            <span style="color: #666; font-size: 0.9rem;">{{ meetup.date }}</span>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <a href="/meetups" style="color: var(--clr-green-dark); font-weight: bold;">View All Previous Events &rarr;</a>
+    </div>
+
+    <!-- Quicklinks Widget -->
+    <div class="sidebar-widget">
+      <h3 style="border-bottom: 2px solid #eee; padding-bottom: 0.5rem; margin-bottom: 1rem;">Quicklinks</h3>
+      <ul style="list-style: none; padding: 0;">
+        <li style="margin-bottom: 0.8rem;">
+            <a href="/conference/2026" style="display: flex; align-items: center; color: var(--text-dark); text-decoration: none;">
+                <span style="font-size: 1.2rem; margin-right: 0.5rem;">🎉</span> Conference 2026
+            </a>
+        </li>
+        <li style="margin-bottom: 0.8rem;">
+            <a href="/become-a-sponsor" style="display: flex; align-items: center; color: var(--text-dark); text-decoration: none;">
+                <span style="font-size: 1.2rem; margin-right: 0.5rem;">🤝</span> Become a Sponsor
+            </a>
+        </li>
+        <li style="margin-bottom: 0.8rem;">
+            <a href="/cod" style="display: flex; align-items: center; color: var(--text-dark); text-decoration: none;">
+                <span style="font-size: 1.2rem; margin-right: 0.5rem;">📜</span> Code of Conduct
+            </a>
+        </li>
+        <li style="margin-bottom: 0.8rem;">
+            <a href="mailto:team@womentechmakers.at" style="display: flex; align-items: center; color: var(--text-dark); text-decoration: none;">
+                 <span style="font-size: 1.2rem; margin-right: 0.5rem;">✉️</span> Contact Us
+            </a>
+        </li>
+      </ul>
+    </div>
+
+  </aside>
+
+</div>
+
 <section class="values">
   <div class="container">
     <h2>What we stand for</h2>
@@ -86,6 +133,7 @@ title: Women Techmakers Vienna
         <p>
           To transform Vienna into a leading center for inclusive tech innovation. We envision a future where gender, ability, and background are celebrated as strengths, and opportunities in STEM are accessible to all, inspiring global change in the technology industry.
         </p>
+      </div>
   </div>
 </section>
 
