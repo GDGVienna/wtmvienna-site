@@ -16,26 +16,26 @@ title: Team | Women Techmakers Vienna
       <div class="member">
         <img src="/assets/images/team/julia.jpg" alt="" class="presenter-img" width="150" height="150">
         <h2>Julia Undeutsch</h2>
-        <p>Website, Finances</p>
+        <p>Website, Finance</p>
       </div>
       <div class="member">
         <img src="/assets/images/team/viorica.jpg" alt="" class="presenter-img" width="150" height="150">
         <h2>Viorica Sîrghii</h2>
-        <p>Women Techmakers Ambassador</p>
+        <p>Women Techmakers Ambassador, MeetUp Organizer</p>
       </div>
       <div class="member">
         <img src="/assets/images/team/laura.jpg" alt="" class="presenter-img" width="150" height="150">
         <h2>Laura Wissiak</h2>
-        <p></p>
+        <p>MeetUp Organizer</p>
       </div>
       <div class="member">
         <img src="/assets/images/team/sharen.jpg" alt="" class="presenter-img" width="150" height="150">
         <h2>Sharen León Escobar</h2>
-        <p>Social Media</p>
+        <p>Social Media, MeetUp Organizer</p>
       </div>
       <div class="member">
-        <img src="/assets/images/team/placeholder.png" alt="" class="presenter-img" width="150" height="150">
-        <h2>You?</h2>
+        <img src="/assets/images/team/anna.jpg" alt="" class="presenter-img" width="150" height="150">
+        <h2>Anna Großalber</h2>
         <p>Social Media</p>
       </div>
       <div class="member">
