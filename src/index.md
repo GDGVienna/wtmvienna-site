@@ -4,7 +4,7 @@ title: Women Techmakers Vienna
 ---
 
 <!-- Hero Section -->
-<section class="hero" style="background: #0434AB; color: var(--white); padding: 4rem 0; text-align: center;">
+<section class="hero" style="background: #0434AB; color: var(--white); padding: 5rem 0; text-align: center;">
   <div class="container">
     <h1 style="color: var(--white); font-size: 3.5rem; margin-bottom: 0.5rem;">Women Techmakers Conference</h1>
     <h2 style="color: var(--white); font-size: 2rem; margin-bottom: 2rem; font-weight: normal;"><b>March 14th 2026</b> @ TUtheSky</h2>
@@ -58,6 +58,15 @@ title: Women Techmakers Vienna
         at enspired
       </p>
       <a href="#" class="btn btn-event" style="width: 100%; text-align: center;">Registration is opening soon</a>
+    </div>
+
+    <!-- Newsletter Widget (Aside) -->
+    <div class="sidebar-widget" style="background: var(--bg-blue-lighter); padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; border: 1px solid var(--clr-blue-light);">
+      <h3 style="margin-top: 0; color: var(--clr-blue-dark); font-size: 1.3rem;">📩 Stay Updated</h3>
+      <p style="margin-bottom: 1rem; font-size: 0.95rem;">
+        Subscribe to our newsletter and stay in the loop—never miss community news or upcoming events.
+      </p>
+      <a href="https://147292833.hs-sites-eu1.com/women-techmakers-vienna" class="btn" style="width: 100%; text-align: center; background: var(--clr-blue); border-color: var(--clr-blue);">Subscribe</a>
     </div>
 
     <!-- Previous Meetups Widget -->
@@ -174,6 +183,17 @@ title: Women Techmakers Vienna
   </div>
   <a href="/become-a-sponsor/" class="btn">Become a Sponsor</a>
 </div>
+</section>
+
+<!-- Newsletter (Before SDG) -->
+<section style="background: var(--bg-blue-dark); padding: 4rem 0; text-align: center; color: white;">
+  <div class="container">
+    <h2 style="color: white; margin-bottom: 1rem;">Keep in touch!</h2>
+    <p style="max-width: 600px; margin: 0 auto 2rem auto; font-size: 1.2rem;">
+      Subscribe to our newsletter to receive updates on community news, events, and important announcements.
+    </p>
+    <a href="https://147292833.hs-sites-eu1.com/women-techmakers-vienna" class="btn btn-event" style="font-size: 1.2rem; padding: 1rem 2.5rem;">Subscribe Now</a>
+  </div>
 </section>
 
 <section class="sdg-section">
