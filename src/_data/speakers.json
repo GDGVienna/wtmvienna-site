@@ -2,35 +2,61 @@
   "organizers": [
     {
       "name": "Julia Undeutsch",
-      "image": "/assets/images/speakers/julia.jpg",
+      "image": "/assets/images/speakers/2025/julia.jpg",
       "title": "Accessibility Specialist in UX and Development"
     }
   ],
   "2025": [
     {
       "name": "Ayu Adiati",
-      "image": "/assets/images/speakers/ayu.jpg",
+      "image": "/assets/images/speakers/2025/ayu.jpg",
       "title": "Open Source Maintainer and Contributor"
     },
     {
       "name": "Cathy Chi",
-      "image": "/assets/images/speakers/cathy.jpg",
+      "image": "/assets/images/speakers/2025/cathy.jpg",
       "title": "Senior Frontend Developer"
     },
     {
       "name": "Stefanie Gilber",
-      "image": "/assets/images/speakers/stefanie.jpg",
+      "image": "/assets/images/speakers/2025/stefanie.jpg",
       "title": "Website & Marketing"
     },
     {
       "name": "Tia Nguyen",
-      "image": "/assets/images/speakers/tia.jpg",
+      "image": "/assets/images/speakers/2025/tia.jpg",
       "title": "Fullstack Developer"
     },
     {
       "name": "Laura Wissiak",
-      "image": "/assets/images/speakers/laura.jpg",
+      "image": "/assets/images/speakers/2025/laura.jpg",
       "title": "UX Researcher for Assistive tech"
+    }
+  ],
+  "2026": [
+    {
+      "id": "jane-doe",
+      "name": "Jane Doe",
+      "image": "/assets/images/speakers/placeholder.jpg",
+      "title": "Future of Tech",
+      "bio": "Jane is a visionary leader in the tech industry with over 15 years of experience.",
+      "abstract": "In this talk, Jane will explore the emerging trends that are shaping the future of technology and how we can prepare for them."
+    },
+    {
+      "id": "john-smith",
+      "name": "John Smith",
+      "image": "/assets/images/speakers/placeholder.jpg",
+      "title": "Accessibility for All",
+      "bio": "John is an accessibility advocate and developer passionate about making the web usable for everyone.",
+      "abstract": "Learn practical strategies and tools to ensure your web applications are accessible to users with diverse needs."
+    },
+    {
+      "id": "alice-wonder",
+      "name": "Alice Wonder",
+      "image": "/assets/images/speakers/placeholder.jpg",
+      "title": "Breaking the Pattern in AI",
+      "bio": "Alice is an AI researcher focused on ethical AI and bias mitigation.",
+      "abstract": "Discover how we can challenge existing patterns in AI development to create more fair and equitable systems."
     }
   ]
 }
