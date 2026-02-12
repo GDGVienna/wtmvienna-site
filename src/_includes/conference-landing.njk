@@ -102,7 +102,19 @@
     <section class="landing-section landing-speakers">
       <div class="landing-container">
         <h2>Speakers</h2>
-        <p>Speaker applications are closed!</p>
+        <div class="speaker-grid">
+          {% for speaker in speakers["2026"] %}
+            <a href="/conference/2026/speakers/" class="speaker-card">
+              <div class="speaker-img-container">
+                <img src="{{ speaker.image }}" alt="{{ speaker.name }}" class="speaker-img">
+              </div>
+              <div class="speaker-info">
+                <h3>{{ speaker.name }}</h3>
+                <p>{{ speaker.title }}</p>
+              </div>
+            </a>
+          {% endfor %}
+        </div>
       </div>
     </section>
 

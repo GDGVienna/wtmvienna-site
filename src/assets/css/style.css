@@ -1462,65 +1462,224 @@ footer {
 .btn-secondary:hover {
   background-color: var(--bg-green-dark);
   color: white;
+}
 
-  /* Prominent Hero Updates */
-  .main-event-section.prominent-card {
-    background-color: #fff;
-    border: 3px solid var(--clr-blue);
-    box-shadow: 0 10px 25px rgba(0, 119, 208, 0.2);
-    transform: scale(1.02);
-    padding: 2rem;
-    position: relative;
-    z-index: 10;
+/* Prominent Hero Updates */
+.main-event-section.prominent-card {
+  background-color: #fff;
+  border: 3px solid var(--clr-blue);
+  box-shadow: 0 10px 25px rgba(0, 119, 208, 0.2);
+  transform: scale(1.02);
+  padding: 2rem;
+  position: relative;
+  z-index: 10;
+}
+
+.main-event-section.prominent-card h2 {
+  font-size: 2rem;
+  color: var(--clr-blue);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Animated Pulse Button */
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 192, 166, 0.7);
+    transform: scale(1);
   }
 
-  .main-event-section.prominent-card h2 {
-    font-size: 2rem;
-    color: var(--clr-blue);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-
-  /* Animated Pulse Button */
-  @keyframes pulse-animation {
-    0% {
-      box-shadow: 0 0 0 0 rgba(0, 192, 166, 0.7);
-      transform: scale(1);
-    }
-
-    70% {
-      box-shadow: 0 0 0 10px rgba(0, 192, 166, 0);
-      transform: scale(1.05);
-    }
-
-    100% {
-      box-shadow: 0 0 0 0 rgba(0, 192, 166, 0);
-      transform: scale(1);
-    }
-  }
-
-  .btn-pulse {
-    animation: pulse-animation 2s infinite;
-    background-color: var(--clr-green);
-    color: #fff;
-    font-size: 1.1em;
-    border: none;
-  }
-
-  .btn-pulse:hover {
-    animation: none;
-    background-color: var(--clr-green-dark);
+  70% {
+    box-shadow: 0 0 0 10px rgba(0, 192, 166, 0);
     transform: scale(1.05);
   }
 
-  .hero-sponsor-link {
-    display: inline-block;
-    margin-top: 1rem;
-    color: var(--clr-blue);
-    text-decoration: underline;
-    font-weight: bold;
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 192, 166, 0);
+    transform: scale(1);
+  }
+}
+
+.btn-pulse {
+  animation: pulse-animation 2s infinite;
+  background-color: var(--clr-green);
+  color: #fff;
+  font-size: 1.1em;
+  border: none;
+}
+
+.btn-pulse:hover {
+  animation: none;
+  background-color: var(--clr-green-dark);
+  transform: scale(1.05);
+}
+
+.hero-sponsor-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--clr-blue);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.hero-sponsor-link:hover {
+  color: var(--clr-blue-dark);
+}
+
+/* --- Speakers Grid (Landing Page) --- */
+.speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.speaker-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.speaker-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.speaker-img-container {
+  width: 120px;
+  height: 120px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: var(--bg-blue-lighter);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.speaker-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.speaker-card:hover .speaker-img {
+  transform: scale(1.05);
+}
+
+.speaker-info {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.speaker-info h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--text-dark);
+}
+
+.speaker-info p {
+  color: var(--text-dark);
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* --- Speakers Detail Page --- */
+.speakers-hero {
+  min-height: 40vh;
+  padding: 4rem 0;
+}
+
+.speakers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.speaker-detail-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 768px) {
+  .speaker-detail-card {
+    flex-direction: row;
   }
 
-  .hero-sponsor-link:hover {
-    color: var(--clr-blue-dark);
+  .speaker-detail-img-container {
+    flex: 0 0 300px;
   }
+}
+
+.speaker-detail-img-container {
+  background-color: var(--bg-blue-lighter);
+  position: relative;
+  overflow: hidden;
+}
+
+.speaker-detail-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.speaker-detail-content {
+  padding: 2rem;
+  flex: 1;
+  text-align: left;
+}
+
+.speaker-name {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: var(--clr-blue-dark);
+}
+
+.speaker-title {
+  font-size: 1.1rem;
+  color: var(--clr-green-dark);
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.speaker-bio,
+.speaker-abstract {
+  margin-bottom: 1.5rem;
+}
+
+.speaker-bio h4,
+.speaker-abstract h4 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.speaker-bio p,
+.speaker-abstract p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-dark);
+}

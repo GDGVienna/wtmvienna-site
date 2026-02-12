@@ -1,0 +1,62 @@
+---
+layout: base.njk
+title: WTM Vienna 2026 - Speakers
+permalink: "/conference/2026/speakers/"
+---
+
+<div class="landing-header">
+  <div class="landing-container">
+     <div class="logo">
+      <a href="/conference/2026/">
+        <img src="/assets/images/logo/wtm-logo.png" alt="Women Techmakers Vienna Logo" class="landing-logo">
+      </a>
+    </div>
+  </div>
+</div>
+
+<main class="landing-body">
+    <section class="landing-hero speakers-hero">
+      <div class="landing-container">
+        <h1>Speakers</h1>
+        <div class="event-meta">
+          <span>Meet the experts</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="landing-section speakers-list-section">
+      <div class="landing-container">
+        <div class="speakers-list">
+          {% for speaker in speakers["2026"] %}
+            <div class="speaker-detail-card" id="{{ speaker.id }}">
+              <div class="speaker-detail-img-container">
+                <img src="{{ speaker.image }}" alt="{{ speaker.name }}" class="speaker-detail-img">
+              </div>
+              <div class="speaker-detail-content">
+                <h2 class="speaker-name">{{ speaker.name }}</h2>
+                <h3 class="speaker-title">{{ speaker.title }}</h3>
+                
+                {% if speaker.bio %}
+                  <div class="speaker-bio">
+                    <h4>Bio</h4>
+                    <p>{{ speaker.bio }}</p>
+                  </div>
+                {% endif %}
+
+                {% if speaker.abstract %}
+                  <div class="speaker-abstract">
+                    <h4>Talk: {{ speaker.title }}</h4>
+                    <p>{{ speaker.abstract }}</p>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        
+        <div class="btn-container" style="margin-top: 3rem;">
+            <a href="/conference/2026/" class="btn hero-btn hero-btn-primary">Back to Conference</a>
+        </div>
+      </div>
+    </section>
+</main>

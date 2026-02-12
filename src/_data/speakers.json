@@ -35,28 +35,28 @@
   ],
   "2026": [
     {
-      "id": "jane-doe",
-      "name": "Jane Doe",
-      "image": "/assets/images/speakers/placeholder.jpg",
-      "title": "Future of Tech",
-      "bio": "Jane is a visionary leader in the tech industry with over 15 years of experience.",
-      "abstract": "In this talk, Jane will explore the emerging trends that are shaping the future of technology and how we can prepare for them."
+      "id": "barbara",
+      "name": "Barbara Meixner",
+      "image": "/assets/images/speakers/2026/barbara.jpg",
+      "title": "Information Security: Entered by Chance, Stayed by Choice",
+      "bio": "Barbara entered information security by chance and stayed by choice. Over the years, she has implemented and driven security and risk management within SMEs, fostering a collaborative culture where employees take ownership in their areas of expertise. She believes security succeeds when people understand the why behind the what and can also transfer practices to private life.",
+      "abstract": "A non-linear career path into information security and shows why changing direction is not a weakness but  can become a real strength in practice. By drawing on experience across HR, operations, and process management, it highlights how diverse backgrounds help build security solutions that work in real organizations."
     },
     {
-      "id": "john-smith",
-      "name": "John Smith",
-      "image": "/assets/images/speakers/placeholder.jpg",
-      "title": "Accessibility for All",
-      "bio": "John is an accessibility advocate and developer passionate about making the web usable for everyone.",
-      "abstract": "Learn practical strategies and tools to ensure your web applications are accessible to users with diverse needs."
+      "id": "jenny",
+      "name": "Jenny Huch",
+      "image": "/assets/images/speakers/2026/jenny.jpg",
+      "title": "When Technologies Meet Social Reality: From Sociology to Robotics",
+      "bio": "I entered tech through sociological conflict research, discovering quickly that technology succeeds only when its social realities are understood. From fieldwork in Tanzania to robotics research at KUKA, my path breaks conventional patterns—showing how interdisciplinary, human centered perspectives reshape the traditional manufacturing sector and make technology truly meaningful.",
+      "abstract": "Originally from Hanover Jenny Huch studied sociology in Göttingen and sociological conflict research in Augsburg. In 2022 she started working at KUKA as an Analyst for the Social Impacts of Robotics and now investigates as an UX Researcher the psychological, ethical, and social effects of robotics in human‑robot interaction. As a sociologist and expert in qualitative social research, her goal is to explore and develop robotic systems that are not only technically advanced but also socially sustainable. Furthermore, she is a member of Women in AI and Robotics and the National Coordinator of ERW Germany."
     },
     {
-      "id": "alice-wonder",
-      "name": "Alice Wonder",
-      "image": "/assets/images/speakers/placeholder.jpg",
-      "title": "Breaking the Pattern in AI",
-      "bio": "Alice is an AI researcher focused on ethical AI and bias mitigation.",
-      "abstract": "Discover how we can challenge existing patterns in AI development to create more fair and equitable systems."
+      "id": "mariebeth",
+      "name": "Mariebeth Aquino",
+      "image": "/assets/images/speakers/2026/mariebeth.jpg",
+      "title": "How to find your individual unique value proposition",
+      "bio": "Mariebeth is a tech entrepreneur with over 15 years of experience in software development. With a degree in computer science and having founded multiple organisations, Mariebeth has a unique edge in bringing tech ventures to life. She is currently working on her newest undertaking, a social startup, to empower underprivileged and marginalised women with computer science skills to create more diversity in tech while making a social impact. Mariebeth, a Filipina-Austrian with a computer science background, is in the unique position to build this scalable social impact startup between South East Asia and the German-speaking DACHLI-region.",
+      "abstract": "This talk demonstrates how to identify one's own individual unique value proposition by aligning skills, lived experience, values&passions into a coherent system. Using my own journey as a case study, I offer practical framework to design a sustainable, meaningful career or venture rooted in true founder–market-fit."
     }
   ]
 }
