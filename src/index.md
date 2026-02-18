@@ -176,6 +176,11 @@ title: Women Techmakers Vienna
       </a>
     </div>
     <div class="partner-item">
+      <a href="https://voesi.or.at/voesi-aktiv/special-interest-groups/special-interest-group-womeninict/">
+        <img src="/assets/images/sponsors/vosi-women.png" alt="VÖSI Women in ICT" width="250" height="250">
+      </a>
+    </div>
+    <div class="partner-item">
       <a href="https://gdg.community.dev/gdg-vienna/">
         <img src="/assets/images/sponsors/gdg-vienna.png" alt="GDG Vienna" width="250" height="250">
       </a>

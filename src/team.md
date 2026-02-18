@@ -34,13 +34,13 @@ title: Team | Women Techmakers Vienna
         <p>Social Media, MeetUp Organizer</p>
       </div>
       <div class="member">
-        <img src="/assets/images/team/anna.jpg" alt="" class="presenter-img" width="150" height="150">
-        <h2>Anna Großalber</h2>
-        <p>Social Media</p>
+        <img src="/assets/images/team/christine.jpg" alt="" class="presenter-img" width="150" height="150">
+        <h2>Christine Wahlmüller-Schiller</h2>
+        <p>Moderator, Organizer</p>
       </div>
       <div class="member">
-        <img src="/assets/images/team/placeholder.png" alt="" class="presenter-img" width="150" height="150">
-        <h2>You?</h2>
+        <img src="/assets/images/team/anna.jpg" alt="" class="presenter-img" width="150" height="150">
+        <h2>Anna Großalber</h2>
         <p>Social Media</p>
       </div>
         <div class="member">
