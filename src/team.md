@@ -36,7 +36,7 @@ title: Team | Women Techmakers Vienna
       <div class="member">
         <img src="/assets/images/team/christine.jpg" alt="" class="presenter-img" width="150" height="150">
         <h2>Christine Wahlmüller-Schiller</h2>
-        <p>Moderator, Organizer</p>
+        <p>Moderator</p>
       </div>
       <div class="member">
         <img src="/assets/images/team/anna.jpg" alt="" class="presenter-img" width="150" height="150">
