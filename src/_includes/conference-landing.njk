@@ -104,13 +104,13 @@
       <div class="landing-container">
         <h2>Speakers</h2>
         <div class="speaker-grid">
-          {% for speaker in speakers["2026"] %}
+          {% for speaker in speakers["2026"] | sort(attribute='last_name') %}
             <a href="/conference/2026/speakers/" class="speaker-card">
               <div class="speaker-img-container">
-                <img src="{{ speaker.image }}" alt="{{ speaker.name }}" class="speaker-img">
+                <img src="{{ speaker.image }}" alt="{{ speaker.name }} {{ speaker.last_name }}" class="speaker-img">
               </div>
               <div class="speaker-info">
-                <h3>{{ speaker.name }}</h3>
+                <h3>{{ speaker.name }} {{ speaker.last_name }}</h3>
                 <p>{{ speaker.title }}</p>
               </div>
             </a>

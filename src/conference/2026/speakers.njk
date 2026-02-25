@@ -17,13 +17,13 @@ permalink: "/conference/2026/speakers/"
     <section class="landing-section speakers-list-section">
       <div class="landing-container">
         <div class="speakers-list">
-          {% for speaker in speakers["2026"] %}
+          {% for speaker in speakers["2026"] | sort(attribute='last_name') %}
             <div class="speaker-detail-card" id="{{ speaker.id }}">
               <div class="speaker-detail-img-container">
                 <img src="{{ speaker.image }}" alt="{{ speaker.name }}" class="speaker-detail-img">
               </div>
               <div class="speaker-detail-content">
-                <h2 class="speaker-name">{{ speaker.name }}</h2>
+                <h2 class="speaker-name">{{ speaker.name }} {{ speaker.last_name }}</h2>
                 <h3 class="speaker-title">{{ speaker.title }}</h3>
                 
                 {% if speaker.bio %}
