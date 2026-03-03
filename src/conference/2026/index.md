@@ -29,7 +29,7 @@ schedule:
     speaker: "Barbara Meixner"
   - time: "13:00"
     title: "How to find your individual unique value proposition"
-    speaker: "Mariebth Aquino"
+    speaker: "Mariebeth Aquino"
   - time: "13:30"
     title: "1.5h Networking & Closing Remarks"
 ---
