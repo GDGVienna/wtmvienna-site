@@ -15,7 +15,7 @@ schedule:
     title: "Doors Open & Coffee"
   - time: "09:30"
     title: "Diverse Talks"
-    speaker: "Mahtab Beikpour, Malika Mataeva, Ronke Babajide, Sadet Kaya-Stein, Orsolya Nemeth"
+    speaker: "Ronke Babajide (Fortinet), Malika Mataeva (Rail Cargo), Orsolya Nemeth (Wien IT), Sadet Kaya-Stein (ACOmarket), Mahtab Beikpour (Volkshilfe)"
   - time: "10:45"
     title: "30' Break"
   - time: "11:15"
