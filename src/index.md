@@ -163,8 +163,17 @@ title: Women Techmakers Vienna
       <img src="/assets/images/sponsors/tuwien.png" alt="TU Wien" width="350" height="350" />
     </div>
   </div>
-    <h3>Partners & Organizers</h3>
-    <div class="partner-items">
+  <h3>Silver Sponsors</h3>
+  <div class="partner-items">
+    <div class="partner-item">
+      <img src="/assets/images/sponsors/rag.png" alt="RAG" width="350" height="350" />
+    </div>
+    <div class="partner-item">
+      <img src="/assets/images/sponsors/planradar.png" alt="PlanRadar" width="350" height="350" />
+    </div>
+  </div>
+  <h3>Partners & Organizers</h3>
+  <div class="partner-items">
     <div class="partner-item">
       <a href="https://www.enspired-trading.com/">
         <img src="/assets/images/sponsors/enspired.png" alt="enspired" width="150" height="150">
