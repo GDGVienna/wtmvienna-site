@@ -9,5 +9,16 @@
     "schedule": "https://www.meetup.com/women-techmakers-vienna/events/310438552/?eventOrigin=group_past_events",
     "livestream_url": "https://www.youtube.com/live/QV-FJ5_MChY?si=ny3FLS7y3VVWxKJP",
     "photo_album_url": "https://www.meetup.com/women-techmakers-vienna/photos/35706050/"
+  },
+  {
+    "id": 2,
+    "name": "Attopting The Right AI-ttitude At Work And In Private Live",
+    "date": "2026-11-28",
+    "host": "enspired GmbH",
+    "image_url": "/assets/images/meetups/2.png",
+    "description": "Networking with amazing women across all roles.",
+    "schedule": "https://www.linkedin.com/event/manage/7407132693248753664/",
+    "livestream_url": "",
+    "photo_album_url": ""
   }
 ]

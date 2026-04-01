@@ -46,10 +46,10 @@ title: Women Techmakers Meetups | Women Techmakers Vienna
                   ▶️ Watch Livestream
                 </a>
                 {% endif %}
-                <a href="{{ event.url }}" class="btn btn-secondary">
+              </div>
+                  <a href="{{ event.url }}" class="btn btn-secondary">
                   View Event Photos
                 </a>
-              </div>
             </div>
           </div>
           {% endfor %}

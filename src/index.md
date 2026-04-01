@@ -54,7 +54,7 @@ title: Women Techmakers Vienna
     <div class="sidebar-widget" style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; border-left: 4px solid var(--clr-green);">
       <h3 style="margin-top: 0; color: var(--clr-blue-dark);">🗓️ Next Meetup</h3>
       <p style="font-size: 1.1rem; margin-bottom: 1rem;">
-        <b>Currently working on it</b><br>
+        <b>First week of May</b><br>
         at enspired
       </p>
       <a href="#" class="btn btn-event" style="width: 100%; text-align: center;">Registration is opening soon</a>
