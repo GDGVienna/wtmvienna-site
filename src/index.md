@@ -6,18 +6,18 @@ title: Women Techmakers Vienna
 <!-- Hero Section -->
 <section class="hero" style="background: #0434AB; color: var(--white); padding: 5rem 0; text-align: center;">
   <div class="container">
+  <p>This was</p>
     <h1 style="color: var(--white); font-size: 3.5rem; margin-bottom: 0.5rem;">Women Techmakers Conference</h1>
     <h2 style="color: var(--white); font-size: 2rem; margin-bottom: 2rem; font-weight: normal;"><b>March 14th 2026</b> @ TUtheSky</h2>
     
     <div class="hero-actions" style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-        <a href="https://147292833.hs-sites-eu1.com/wtmvienna" class="btn btn-event" style="font-size: 1.2rem; padding: 1rem 2rem;">Register Now</a>
-        <a href="/conference/2026" class="btn" style="background: transparent; border: 2px solid var(--white); font-size: 1.2rem; padding: 1rem 2rem;">Conference Details</a>
+        <a href="/conference/2026" class="btn btn-event" style="font-size: 1.2rem; padding: 1rem 2rem; max-width:400px;">Conference Details</a>
     </div>
   </div>
 </section>
 
 <!-- Content Layout -->
-<div class="container" style="display: flex; flex-wrap: wrap; gap: 3rem; margin-top: 3rem; margin-bottom: 3rem;">
+<div class="container" style="display: flex; flex-wrap: wrap; gap: 4rem; margin-top: 4rem; margin-bottom: 4rem;">
   
   <!-- Main Content -->
   <div style="flex: 2; min-width: 300px;">
