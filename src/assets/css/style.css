@@ -278,7 +278,8 @@ header {
 .partner,
 .schedule,
 .cod,
-.archive {
+.archive,
+.privacy-policy {
   text-align: center;
   padding: 3.333em 0;
   background: var(--white);
@@ -705,7 +706,8 @@ header {
   text-align: center;
 }
 
-.cod .container {
+.cod .container,
+.privacy-policy .container {
   max-width: 50em;
   margin: 0 auto;
 }
@@ -724,12 +726,17 @@ header {
 .cod ul {
   font-size: 1em;
   list-style-type: disc;
-  margin: 1em 0 1em 2em;
-  padding: 0;
+  list-style-position: outside;
+  margin: 1.5em auto;
+  max-width: 45em;
+  padding-left: 2em;
+  text-align: left;
 }
 
 .cod li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.75em;
+  text-align: left;
+  line-height: 1.6;
 }
 
 .cod a {

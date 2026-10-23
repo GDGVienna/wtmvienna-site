@@ -10,8 +10,8 @@ title: Strong Women in Tech | Women Techmakers Vienna
 <p>
 This code of conduct applies to all Women Techmakers Vienna spaces, including but not limited to our Conferences and Webinars, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from attending at the discretion of the RESPONSE TEAM.</p>
 
-<ul>Harassment includes:
-
+<p><strong>Harassment includes:</strong></p>
+<ul>
 <li>Offensive comments related to gender, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, age, race, or religion.</li>
 <li>Unwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment.</li>
 <li>Gratuitous or off-topic sexual images or behaviour in spaces where they’re not appropriate.</li>
