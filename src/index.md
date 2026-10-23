@@ -4,14 +4,16 @@ title: Women Techmakers Vienna
 ---
 
 <!-- Hero Section -->
-<section class="hero" style="background: #0434AB; color: var(--white); padding: 5rem 0; text-align: center;">
+<section class="wtm-hero-grad">
   <div class="container">
-  <p>This was</p>
-    <h1 style="color: var(--white); font-size: 3.5rem; margin-bottom: 0.5rem;">Women Techmakers Conference</h1>
-    <h2 style="color: var(--white); font-size: 2rem; margin-bottom: 2rem; font-weight: normal;"><b>March 14th 2026</b> @ TUtheSky</h2>
-    
+    <div class="wtm-badge">
+      <span>★</span> Technovation Global Network
+    </div>
+    <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 0.75rem; line-height: 1.15;">We build with the best</h1>
+    <p style="font-size: clamp(1.05rem, 1.8vw, 1.3rem); max-width: 720px; margin: 0 auto 2rem; color: var(--text-dark); line-height: 1.55;">Women Techmakers Vienna is part of Technovation’s global community of engineers, founders, researchers, and technical leaders empowering diversity in technology.</p>
     <div class="hero-actions" style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-        <a href="/conference/2026" class="btn btn-event" style="font-size: 1.2rem; padding: 1rem 2rem; max-width:400px;">Conference Details</a>
+      <a href="/conference/2026" class="btn btn-event" style="padding: 0.9rem 2rem; font-size: 1.05rem;">Conference Details →</a>
+      <a href="/meetups" class="btn btn-dark" style="padding: 0.9rem 2rem; font-size: 1.05rem;">Browse Meetups</a>
     </div>
   </div>
 </section>
@@ -28,17 +30,17 @@ title: Women Techmakers Vienna
         </p>
       
       <div class="cards" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); padding: 0;">
-        <div class="card" style="border: 1px solid #eaeaea;">
+        <div class="card" style="border: 1px solid rgba(10, 10, 10, 0.08); border-radius: 12px; box-shadow: 0 4px 12px rgba(29, 19, 73, 0.04);">
           <h3>Conference</h3>
           <img src="./assets/images/homepage/conference.png" width="250" height="170" alt="" />
           <p>Supporting women and people with disabilities in tech through the power of example.</p>
         </div>
-        <div class="card" style="border: 1px solid #eaeaea;">
+        <div class="card" style="border: 1px solid rgba(10, 10, 10, 0.08); border-radius: 12px; box-shadow: 0 4px 12px rgba(29, 19, 73, 0.04);">
           <h3>MeetUps</h3>
           <img src="./assets/images/homepage/discussion.png" width="250" height="170" alt="" />
           <p>In-person meetups with experts and leaders to close the gender gap.</p>
         </div>
-        <div class="card" style="border: 1px solid #eaeaea;">
+        <div class="card" style="border: 1px solid rgba(10, 10, 10, 0.08); border-radius: 12px; box-shadow: 0 4px 12px rgba(29, 19, 73, 0.04);">
           <h3>Workshops</h3>
           <img src="./assets/images/homepage/hackathon.png" width="250" height="170" alt="" />
           <p>High-tech workshops, hands-on experience, hacking and debugging.</p>
@@ -51,28 +53,28 @@ title: Women Techmakers Vienna
   <aside style="flex: 1; min-width: 280px;">
     
     <!-- Next Meetup Widget -->
-    <div class="sidebar-widget" style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; border-left: 4px solid var(--clr-green);">
-      <h3 style="margin-top: 0; color: var(--clr-blue-dark);">🗓️ Next Meetup</h3>
-      <p style="font-size: 1.1rem; margin-bottom: 1rem;">
+    <div class="sidebar-widget" style="background: var(--light-color); padding: 1.5rem; border-radius: 12px; margin-bottom: 2rem; border-left: 4px solid var(--clr-lime);">
+      <h3 style="margin-top: 0; color: var(--clr-navy-dark);">🗓️ Next Meetup</h3>
+      <p style="font-size: 1.05rem; margin-bottom: 1rem;">
         <b>First week of May</b><br>
         at enspired
       </p>
-      <a href="#" class="btn btn-event" style="width: 100%; text-align: center;">Registration is opening soon</a>
+      <a href="/meetups" class="btn btn-event" style="width: 100%; text-align: center;">Registration is opening soon</a>
     </div>
 
     <!-- Newsletter Widget (Aside) -->
-    <div class="sidebar-widget" style="background: var(--bg-blue-lighter); padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; border: 1px solid var(--clr-blue-light);">
-      <h3 style="margin-top: 0; color: var(--clr-blue-dark); font-size: 1.3rem;">📩 Stay Updated</h3>
+    <div class="sidebar-widget" style="background: var(--light-color); padding: 1.5rem; border-radius: 12px; margin-bottom: 2rem; border: 1px solid rgba(29, 19, 73, 0.12);">
+      <h3 style="margin-top: 0; color: var(--clr-navy-dark); font-size: 1.3rem;">📩 Stay Updated</h3>
       <p style="margin-bottom: 1rem; font-size: 0.95rem;">
         Subscribe to our newsletter and stay in the loop—never miss community news or upcoming events.
       </p>
-      <a href="https://147292833.hs-sites-eu1.com/women-techmakers-vienna" class="btn" style="width: 100%; text-align: center; background: var(--clr-blue); border-color: var(--clr-blue);">Subscribe</a>
+      <a href="https://147292833.hs-sites-eu1.com/women-techmakers-vienna" class="btn btn-dark" style="width: 100%; text-align: center;">Subscribe</a>
     </div>
 
     <!-- Previous Meetups Widget -->
     <div class="sidebar-widget" style="margin-bottom: 2rem;">
       <h3 style="border-bottom: 2px solid #eee; padding-bottom: 0.5rem; margin-bottom: 1rem;">Previous Meetups</h3>
-      <p style="font-size: 1.1rem; margin-bottom: 1rem;">
+      <p style="font-size: 1.05rem; margin-bottom: 1rem;">
         <b>January 28th, 2026</b><br>
         at enspired
       </p>
@@ -80,14 +82,14 @@ title: Women Techmakers Vienna
         {% for meetup in pastMeetups %}
           {% if loop.index <= 3 %}
           <li style="margin-bottom: 1rem;">
-            <a href="{{ meetup.photo_album_url }}" target="_blank" style="font-weight: bold; color: var(--clr-blue);">{{ meetup.name }}</a>
+            <a href="{{ meetup.photo_album_url }}" target="_blank" style="font-weight: bold; color: var(--clr-navy-dark);">{{ meetup.name }}</a>
             <br>
-            <span style="color: #666; font-size: 0.9rem;">{{ meetup.date }}</span>
+            <span style="color: var(--text-muted); font-size: 0.9rem;">{{ meetup.date }}</span>
           </li>
           {% endif %}
         {% endfor %}
       </ul>
-      <a href="/meetups" style="color: var(--clr-green-dark); font-weight: bold;">View All Previous Events &rarr;</a>
+      <a href="/meetups" style="color: var(--clr-navy-dark); font-weight: bold;">View All Previous Events &rarr;</a>
     </div>
 
     <!-- Quicklinks Widget -->
@@ -180,13 +182,8 @@ title: Women Techmakers Vienna
       </a>
     </div>
     <div class="partner-item">
-      <a href="https://developers.google.com/womentechmakers">
-        <img src="/assets/images/WTM-logos/logo-full.png" alt="Women Techmakers" width="350" height="350">
-      </a>
-    </div>
-    <div class="partner-item">
-      <a href="https://voesi.or.at/voesi-aktiv/special-interest-groups/special-interest-group-womeninict/">
-        <img src="/assets/images/sponsors/vosi-women.png" alt="VÖSI Women in ICT" width="250" height="250">
+      <a href="https://www.technovation.org/women-techmakers" target="_blank" rel="noopener">
+        <img src="/assets/images/WTM-logos/logo-full.png" alt="Women Techmakers by Technovation" width="350" height="350">
       </a>
     </div>
     <div class="partner-item">

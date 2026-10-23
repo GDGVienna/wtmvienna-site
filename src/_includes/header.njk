@@ -1,9 +1,13 @@
 <header>
   <div class="container header-container">
     <div class="logo">
-      <img src="/assets/images/WTM-logos/logo.png" alt="" width="168" height="67">
+      <a href="/" class="brand-link" aria-label="Women Techmakers Vienna Home">
+        <img src="/assets/images/WTM-logos/wtm-vienna-logo.png" alt="Women Techmakers Vienna" class="brand-logo-main" width="52" height="52">
+        <span class="brand-by" aria-hidden="true">by</span>
+        <img src="/assets/images/technovation-logo.svg" alt="Technovation" class="brand-logo-technovation" width="120" height="14">
+      </a>
     </div>
-    <button class="menu-toggle" aria-expanded="false">Menu</button>
+    <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation menu">Menu</button>
     <nav class="nav-links">
       <a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>Home</a>
       <a href="/conference/" {% if page.url == "/conference/" %}aria-current="page"{% endif %}>Conference</a>

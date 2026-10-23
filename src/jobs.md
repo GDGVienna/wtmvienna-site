@@ -14,7 +14,8 @@ To apply, simply click on a job that interests you, and you will be taken direct
   <div class="page-header">
   <div class="job-listings">
     {%- for job in jobs -%}
-    <h2 class="sr-only">Jobs by {{ job.company }}</h2>
+      {%- if job.active != false -%}
+      <h2 class="sr-only">Jobs by {{ job.company }}</h2>
       <div class="job-card">
         <div class="job-card-header">
         <div>
@@ -29,6 +30,7 @@ To apply, simply click on a job that interests you, and you will be taken direct
           <a href="{{ job.apply_url }}" class="apply-button" target="_blank" rel="noopener noreferrer">Apply Now</a>
         </div>
       </div>
+      {%- endif -%}
     {%- endfor -%}
   </div>
     </div>

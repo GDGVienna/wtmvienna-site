@@ -4,20 +4,23 @@
     "company": "Women Techmakers Vienna",
     "logo_url": "/assets/images/WTM-logos/logo-full.png",
     "location": "Vienna, Austria",
-    "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfQ1AzdEWlRdcciKkB3PyBX6-7ggzT3n59N8kjyeOR-8u293Q/viewform"
+    "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfQ1AzdEWlRdcciKkB3PyBX6-7ggzT3n59N8kjyeOR-8u293Q/viewform",
+    "active": true
   },
   {
-    "title": "Senior Software Development Expert",
+    "title": "Senior Content Expert",
     "company": "enspired",
     "logo_url": "/assets/images/sponsors/enspired.png",
     "location": "Vienna, Austria",
-    "apply_url": "https://enspired.recruitee.com/o/senior-software-development-expert-fmx-3?source=WTM"
+    "apply_url": "https://enspired.recruitee.com/o/senior-content-expert-fmx?source=WTM",
+    "active": true
   },
   {
-    "title": "Junior IT Client Management (f/m/x) - (20h/week)",
+    "title": "Senior Communications Expert",
     "company": "enspired",
     "logo_url": "/assets/images/sponsors/enspired.png",
     "location": "Vienna, Austria",
-    "apply_url": "https://enspired.recruitee.com/o/junior-it-client-management-fmx-20hweek?source=WTM"
+    "apply_url": "https://enspired.recruitee.com/o/senior-communications-expert-fmx?source=WTM",
+    "active": true
   }
 ]
