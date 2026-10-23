@@ -56,10 +56,10 @@ title: Women Techmakers Vienna
     <div class="sidebar-widget" style="background: var(--light-color); padding: 1.5rem; border-radius: 12px; margin-bottom: 2rem; border-left: 4px solid var(--clr-lime);">
       <h3 style="margin-top: 0; color: var(--clr-navy-dark);">🗓️ Next Meetup</h3>
       <p style="font-size: 1.05rem; margin-bottom: 1rem;">
-        <b>First week of May</b><br>
-        at enspired
+        <b>December</b><br>
+        at Christmas Market Vienna
       </p>
-      <a href="/meetups" class="btn btn-event" style="width: 100%; text-align: center;">Registration is opening soon</a>
+      <a href="https://www.linkedin.com/posts/women-techmakers-vienna_womentechmakers-wtmvienna-vienna-activity-7518579671471448064-znl1?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZrhk8BdnHR0BTGoazSgLJ6sqBactAbZ7k" class="btn btn-event" style="width: 100%; text-align: center;">More Information on LinkedIn</a>
     </div>
 
     <!-- Newsletter Widget (Aside) -->
@@ -75,7 +75,7 @@ title: Women Techmakers Vienna
     <div class="sidebar-widget" style="margin-bottom: 2rem;">
       <h3 style="border-bottom: 2px solid #eee; padding-bottom: 0.5rem; margin-bottom: 1rem;">Previous Meetups</h3>
       <p style="font-size: 1.05rem; margin-bottom: 1rem;">
-        <b>January 28th, 2026</b><br>
+        <b>October 7th, 2026</b><br>
         at enspired
       </p>
       <ul style="list-style: none; padding: 0;">

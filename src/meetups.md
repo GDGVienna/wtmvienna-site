@@ -8,7 +8,7 @@ title: Women Techmakers Meetups | Women Techmakers Vienna
     <div class="meetups-hero__text">
       <span class="meetups-hero__eyebrow">Community Events</span>
       <h1>Women Techmakers Meetups</h1>
-      <p>Next meetups will happen in May 2026. Follow <a href="https://www.linkedin.com/company/women-techmakers-vienna/">WTM Vienna on LinkedIn</a> and subscribe to our <a href="https://147292833.hs-sites-eu1.com/women-techmakers-vienna">newsletter</a> to stay in the loop.</p>
+      <p>Next meetups will happen in December 2026. Follow <a href="https://www.linkedin.com/company/women-techmakers-vienna/">WTM Vienna on LinkedIn</a> and subscribe to our <a href="https://147292833.hs-sites-eu1.com/women-techmakers-vienna">newsletter</a> to stay in the loop.</p>
     </div>
   </div>
 </section>
