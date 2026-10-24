@@ -65,7 +65,7 @@
       "id": "mahtab",
       "name": "Mahtab",
       "last_name": "Beikpour",
-      "image": "https://media.licdn.com/dms/image/v2/D4D03AQHImQrdrD_l1g/profile-displayphoto-crop_800_800/B4DZoA7iO4KMAI-/0/1760952198785?e=1773878400&v=beta&t=unNNacZYgxfTbPdAn0kXSNXZ7J0TQOb862V9ILSB2XY",
+      "image": "/assets/images/speakers/2026/mahtab.jpg",
       "title": "Trainer & Integration Mentor @Volkshilfe Wien",
       "bio": "",
       "abstract": ""
@@ -83,7 +83,7 @@
       "id": "sadet",
       "name": "Sadet",
       "last_name": "Kaya-Stein",
-      "image": "https://media.licdn.com/dms/image/v2/D4D03AQGZ-gTefRIgPA/profile-displayphoto-shrink_800_800/B4DZXIorD.G4Ac-/0/1742827861345?e=1773878400&v=beta&t=OqUnFwrQXEsJBT94p4s7OcAiHY_2aGtVVSYrYnHnatE",
+      "image": "/assets/images/speakers/2026/sadet.jpg",
       "title": "Senior Program Manager & AI-Expertin @ACOmarket GmbH",
       "bio": "",
       "abstract": ""
@@ -92,16 +92,16 @@
       "id": "jacqueline",
       "name": "Jacqueline",
       "last_name": "Berger",
-      "image": "https://media.licdn.com/dms/image/v2/D4D03AQGZZweqwSeLYg/profile-displayphoto-shrink_400_400/B4DZSe0GkRHkAo-/0/1737831246861?e=1774483200&v=beta&t=cSYKuTOT-IqpTgbbC1edeOUNKdLf_Cnw1PTNwUvZfhg",
+      "image": "/assets/images/speakers/2026/jacqueline.jpg",
       "title": "Cyber Defense Center Analyst @Raiffeisenbank International AG",
       "bio": "",
       "abstract": ""
     },
     {
       "id": "malika",
-      "name": " Malika",
+      "name": "Malika",
       "last_name": "Mataeva",
-      "image": "https://media.licdn.com/dms/image/v2/D4D03AQHn0K4zvvDnsA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710152052127?e=1773878400&v=beta&t=mZUKQfCtFDM6szh6cwZQGrcssZ3JNJinpMEtTkReVCM",
+      "image": "/assets/images/speakers/2026/malika.jpg",
       "title": "Information Security Officer @Rail Cargo Group",
       "bio": "",
       "abstract": ""
