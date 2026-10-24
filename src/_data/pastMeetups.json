@@ -1,25 +1,14 @@
 [
   {
-    "id": 1,
-    "name": "No One Path: Three Tech Career Stories",
-    "date": "2025-10-29",
+    "id": 4,
+    "name": "From bioengineering on Earth to pioneering healthcare in space",
+    "date": "2026-10-07",
     "host": "enspired GmbH",
-    "image_url": "/assets/images/meetups/1.png",
-    "description": "An evening of real talk and practical inspiration for women of all ages and abilities. Three speakers share how they entered tech: a traditional route, an unconventional pivot in the mid-20s, and a complete career switch in the mid-30s. Come for the stories, stay for the Q&A and community.",
-    "schedule": "https://www.meetup.com/women-techmakers-vienna/events/310438552/?eventOrigin=group_past_events",
-    "livestream_url": "https://www.youtube.com/live/QV-FJ5_MChY?si=ny3FLS7y3VVWxKJP",
-    "photo_album_url": "https://www.meetup.com/women-techmakers-vienna/photos/35706050/"
-  },
-  {
-    "id": 2,
-    "name": "Attopting The Right AI-ttitude At Work And In Private Live",
-    "date": "2026-01-28",
-    "host": "enspired GmbH",
-    "image_url": "/assets/images/meetups/2.png",
-    "description": "Networking with amazing women across all roles.",
-    "schedule": "https://www.linkedin.com/event/manage/7407132693248753664/",
+    "image_url": "/assets/images/meetups/3.png",
+    "description": "We'll dive into the emerging world of space biotechnology and explore how navigating unconventional paths, embracing unexpected opportunities, and leveraging a single powerful connection can take a career further than ever imagined, on Earth and beyond!",
+    "schedule": "https://www.linkedin.com/posts/women-techmakers-vienna_meet-the-speaker-ecem-badruk-activity-7511030788788899841-Tcna?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZrhk8BdnHR0BTGoazSgLJ6sqBactAbZ7k",
     "livestream_url": "",
-    "photo_album_url": "https://www.linkedin.com/posts/women-techmakers-vienna_womenintech-womeninict-aiforall-activity-7423998640521773056-zzeq?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZrhk8BdnHR0BTGoazSgLJ6sqBactAbZ7k"
+    "photo_album_url": "https://www.linkedin.com/posts/women-techmakers-vienna_womentechmakers-wtmvienna-networking-activity-7513952327955947520-Kn7d?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZrhk8BdnHR0BTGoazSgLJ6sqBactAbZ7k"
   },
   {
     "id": 3,
@@ -33,14 +22,25 @@
     "photo_album_url": "https://www.linkedin.com/posts/women-techmakers-vienna_iamremarkable-womentechmakers-wtmvienna-activity-7462759167078854656-yFrT?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZrhk8BdnHR0BTGoazSgLJ6sqBactAbZ7k"
   },
   {
-    "id": 4,
-    "name": "From bioengineering on Earth to pioneering healthcare in space",
-    "date": "2026-10-07",
+    "id": 2,
+    "name": "Attopting The Right AI-ttitude At Work And In Private Live",
+    "date": "2026-01-28",
     "host": "enspired GmbH",
-    "image_url": "/assets/images/meetups/3.png",
-    "description": "We'll dive into the emerging world of space biotechnology and explore how navigating unconventional paths, embracing unexpected opportunities, and leveraging a single powerful connection can take a career further than ever imagined, on Earth and beyond!",
-    "schedule": "https://www.linkedin.com/posts/women-techmakers-vienna_meet-the-speaker-ecem-badruk-activity-7511030788788899841-Tcna?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZrhk8BdnHR0BTGoazSgLJ6sqBactAbZ7k",
+    "image_url": "/assets/images/meetups/2.png",
+    "description": "Networking with amazing women across all roles.",
+    "schedule": "https://www.linkedin.com/event/manage/7407132693248753664/",
     "livestream_url": "",
-    "photo_album_url": "https://www.linkedin.com/posts/women-techmakers-vienna_womentechmakers-wtmvienna-networking-activity-7513952327955947520-Kn7d?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZrhk8BdnHR0BTGoazSgLJ6sqBactAbZ7k"
+    "photo_album_url": "https://www.linkedin.com/posts/women-techmakers-vienna_womenintech-womeninict-aiforall-activity-7423998640521773056-zzeq?utm_source=share&utm_medium=member_desktop&rcm=ACoAACZrhk8BdnHR0BTGoazSgLJ6sqBactAbZ7k"
+  },
+  {
+    "id": 1,
+    "name": "No One Path: Three Tech Career Stories",
+    "date": "2025-10-29",
+    "host": "enspired GmbH",
+    "image_url": "/assets/images/meetups/1.png",
+    "description": "An evening of real talk and practical inspiration for women of all ages and abilities. Three speakers share how they entered tech: a traditional route, an unconventional pivot in the mid-20s, and a complete career switch in the mid-30s. Come for the stories, stay for the Q&A and community.",
+    "schedule": "https://www.meetup.com/women-techmakers-vienna/events/310438552/?eventOrigin=group_past_events",
+    "livestream_url": "https://www.youtube.com/live/QV-FJ5_MChY?si=ny3FLS7y3VVWxKJP",
+    "photo_album_url": "https://www.meetup.com/women-techmakers-vienna/photos/35706050/"
   }
 ]
