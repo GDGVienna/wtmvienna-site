@@ -1674,6 +1674,8 @@ footer {
 .meetups-past__header {
   margin-bottom: 2.5rem;
   box-shadow: none;
+  border-bottom: none;
+  z-index: 0;
 }
 
 .meetups-past__header h2 {
